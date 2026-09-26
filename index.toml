@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "28bab82d882293f6b34301d9fa3c0c9c69dd21914caa0f1595d8735f2dcbab4c"
+hash = "ad9b17273a9233b909284d33970ea18430aa4e379600ac092f0bd8259217f16f"
 
 [[files]]
 file = "config/ftbquests/README.md"
