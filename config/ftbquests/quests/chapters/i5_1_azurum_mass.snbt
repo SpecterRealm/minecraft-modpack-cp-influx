@@ -1,0 +1,39 @@
+{
+	autofocus_id: "B100000000000801"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i5_1_azurum_mass"
+	group: "B1000000000000A4"
+	id: "B100000000000800"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B100000000000801"
+			optional: true
+			rewards: [
+				{
+					id: "B10000000000080F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/influx/azurum"
+				},
+				{
+					id: "B10000000000080F2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "B100000000000802"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

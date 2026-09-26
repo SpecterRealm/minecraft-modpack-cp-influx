@@ -1,0 +1,124 @@
+{
+	autofocus_id: "B100000000000501"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i3_2_emc_ladder"
+	group: "B1000000000000A3"
+	id: "B100000000000500"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["B100000000000407"]
+			icon: {
+				id: "projecte:philosophers_stone"
+			}
+			id: "B100000000000501"
+			rewards: [
+				{
+					id: "B1000000000005F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/influx/emc_ladder"
+				},
+				{
+					count: 1
+					id: "B1000000000005F2"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "B100000000000502"
+				type: "item"
+				item: { id: "projecte:philosophers_stone" count: 1 }
+				count: 1L
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000501"]
+			id: "B100000000000503"
+			rewards: [
+				{
+					count: 8
+					id: "B1000000000005F3"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "B100000000000504"
+				type: "item"
+				item: { id: "projecte:transmutation_table" count: 1 }
+				count: 1L
+			}
+			]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000503"]
+			id: "B100000000000505"
+			rewards: [
+				{
+					count: 16
+					id: "B1000000000005F4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				},
+				{
+					id: "B1000000000005F5"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/influx/pattern_matter"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "B100000000000506"
+				type: "checkmark"
+			}
+			]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000505"]
+			id: "B100000000000507"
+			rewards: [
+				{
+					id: "B1000000000005F6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				id: "B100000000000508"
+				type: "checkmark"
+			}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,124 @@
+{
+	autofocus_id: "B100000000000301"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i2_1_typed_matter"
+	group: "B1000000000000A2"
+	id: "B100000000000300"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["B100000000000207"]
+			icon: {
+				id: "replication:replicator"
+			}
+			id: "B100000000000301"
+			rewards: [
+				{
+					id: "B1000000000003F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/influx/replication_basics"
+				},
+				{
+					count: 8
+					id: "B1000000000003F2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "B100000000000302"
+				type: "item"
+				item: { id: "replication:replicator" count: 1 }
+				count: 1L
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000301"]
+			id: "B100000000000303"
+			rewards: [
+				{
+					count: 8
+					id: "B1000000000003F3"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "B100000000000304"
+				type: "item"
+				item: { id: "replication:memory_chip" count: 1 }
+				count: 1L
+			}
+			]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000303"]
+			id: "B100000000000305"
+			rewards: [
+				{
+					count: 16
+					id: "B1000000000003F4"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				},
+				{
+					id: "B1000000000003F5"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/influx/typed_matter"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "B100000000000306"
+				type: "checkmark"
+			}
+			]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000305"]
+			id: "B100000000000307"
+			rewards: [
+				{
+					id: "B1000000000003F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				id: "B100000000000308"
+				type: "checkmark"
+			}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+}
