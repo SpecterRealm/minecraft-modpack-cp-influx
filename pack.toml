@@ -1,0 +1,16 @@
+name = "Colony Protocol: Influx"
+author = "MichaelHeaton"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cf0cc51274000c5f5823b61d256eb3856a42605e5478a11af34db53aa816bd8a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
+
+[options]
+acceptable-game-versions = ["1.21"]
