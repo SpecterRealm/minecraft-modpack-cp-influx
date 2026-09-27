@@ -1,12 +1,30 @@
 # Colony Protocol: Influx
 
-Ship-in-void genetics / digital teaching — mad-science recycle; debris → typed matter → genetics (not something-for-nothing).
+Ship-in-void **genetics / digital** teaching — mad-science recycle. Debris → typed matter → genetics. Not something-for-nothing.
 
-**Loader:** NeoForge **1.21.1** (packwiz). **Status:** template scaffold — shared QoL stack soft-pinned; pillar mods and quests TBD.
+**Loader:** NeoForge **1.21.1** (packwiz)  
+**Series order:** Pack **3** of Colony Protocol — Verdant → Elysian → **Influx** → Liminal (recommended, not required)  
+**Status:** Scaffold / coming soon — shared QoL soft-pinned; pillar mods stay soft until smoke-tested.
 
-## Quick start (Prism)
+**CurseForge:** _Coming soon — project URL TBD_  
+*(Separate CF project from Verdant; not crammed onto the Verdant page.)*
 
-1. Create Prism instance `CP-Influx-Dev` → Minecraft **1.21.1** + **NeoForge 21.1.228** (match `pack.toml`).
+## What this is
+
+You live on a **prebuilt ship in the void**, open dimensional workspaces, and rebuild resources from **something** — never from nothing. Headline: ship lab + genetics + recycle. Do **not** pitch this pack as “EMC solves everything.”
+
+**Soft leans (not jar locks yet):** salvage / Recovery Bay–style bootstrap → genetics / breeding for advanced mats → digital workspace tools. Efficiency ladders (if present) stay pattern-first: first copy, then convert. Quests teach and reward; they never hard-gate the pack.
+
+## Install tip (players)
+
+1. Install [Prism Launcher](https://prismlauncher.org/) (or the CurseForge app).
+2. Add an instance from this pack’s CurseForge page / downloaded zip when published.
+3. Allocate ~6–8 GB RAM (more with shaders).
+4. Launch with the NeoForge profile the pack ships.
+
+## Dev quick start (Prism)
+
+1. Create Prism instance `CP-Influx-Dev` → Minecraft **1.21.1** + NeoForge matching `pack.toml`.
 2. `make serve` from this repo (or `packwiz serve`).
 3. Instance pre-launch:
 
@@ -14,23 +32,34 @@ Ship-in-void genetics / digital teaching — mad-science recycle; debris → typ
    "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" --bootstrap-no-update http://localhost:8080/pack.toml
    ```
 
-4. `make setup-dev` once (Prism closed), then launch the instance.
+4. `make setup-dev` once (Prism closed), then launch.
 
 See [docs/workflow.md](docs/workflow.md).
+
+## Series siblings
+
+| Pack | Role | Repo |
+|------|------|------|
+| [Verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Pack 1 — overworld, no ore veins, sieve loop | Live CF: [colony-protocol-verdant](https://www.curseforge.com/minecraft/modpacks/colony-protocol-verdant) |
+| [Elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Pack 2 — void magic | — |
+| **Influx** (this repo) | Pack 3 — ship lab / genetics | — |
+| [Liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | Pack 4 — planetfall reunite | — |
+
+Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm-core) · CF [SpecterRealm Core](https://www.curseforge.com/minecraft/mc-mods/specterrealm-core)
 
 ## What's ready vs stubbed
 
 | Area | Status |
 |------|--------|
 | packwiz + Makefile + CI | Ready |
-| Shared stack (`mods/*.pw.toml`) | Soft-pinned from Verdant — smoke-test pending |
-| `config/ftbquests/` | Early/Mid spine + Late stubs (this PR) |
-| KubeJS | Skeleton + TODOs only |
-| Pack pillar mods | Not pinned — see design docs |
-| FancyMenu chrome / Field Manual content | Mod pinned; assets TBD |
+| Shared stack (`mods/*.pw.toml`) | Soft-pinned — smoke-test pending |
+| `config/ftbquests/` | Early/Mid spine + Late stubs |
+| KubeJS | Skeleton + TODOs |
+| Pack pillar mods | Soft candidates — not locked as shipping features |
+| FancyMenu / Field Manual content | Mod pinned; assets TBD |
 
-## Design
+## Design pointers
 
-Project store: docs/influx-core-mods.md · pack-progression-arcs.md §I · influx-bay-alternatives.md (Recovery Bay = KubeJS fallback only — not implemented here) · influx-resource-loops.md.
+Project store: `docs/influx-core-mods.md` · `pack-progression-arcs.md` §I · `influx-bay-alternatives.md` (Recovery Bay = KubeJS fallback only) · `influx-resource-loops.md`.
 
-Tooling reference: [CP Verdant pack-template](https://github.com/michaelheaton/minecraft-modpack-cp-verdant/blob/main/docs/pack-template.md).
+Tooling reference: [Verdant pack-template](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant/blob/main/docs/pack-template.md).
