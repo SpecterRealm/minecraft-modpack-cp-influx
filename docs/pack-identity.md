@@ -4,12 +4,14 @@
 
 **Loader:** Minecraft 1.21.1 · NeoForge 21.1.228 (match Verdant).
 
-**Shared stack (soft-pinned from Verdant):** FTB Quests + KubeJS + SpecterRealm Core + Patchouli + Sophisticated Storage (series early stash) + EMI/Jade/IPN lean + Silent Gear (tools soft lean) + client perf. See `mods/*.pw.toml` and series `shared-mod-stack.md`.
+**Mod set:** Shared series QoL + locked landings (HNN / Placebo / Azurum) + **identity soft pins** (**69** `.pw.toml`): thin **AE2** (Spanner workspace; Verdant `19.2.17` pin), **ProjectE**, **AppliedE**, **AgriCraft ReReloaded**, **Replication** (+ **Titanium**). See `mods/*.pw.toml` and series `influx-core-mods.md`.
 
 ## Not in this scaffold
 
 - Full quest chapters (empty `config/ftbquests/` — quest worker owns SNBT)
-- Pack pillar mods (Ars / PE / AgriCraft / etc.) — candidates until smoke-test; do not invent final modlists
+- Full AE2 depth (AdvancedAE / MEGA / wireless / QoL addons) — thin AE2 only for now
+- AE↔Replication bridge pick (Applied Replicatics vs Replication AE2 Bridge) — hold until compared
+- Mystical Agriculture plant fallback — prefer AgriCraft-only until smoke fails
 - Recovery Bay / gem bootstrap KubeJS — design first, then implement
 - Full FancyMenu Bridge chrome (buttons / CALIBRATE) — title, drippy, level-loading, and pause backgrounds ship under `config/fancymenu/`
 

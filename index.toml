@@ -477,6 +477,21 @@ file = "kubejs/startup_scripts/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "mods/agricraft-rereloaded.pw.toml"
+hash = "81d42f348a6408398b0a29dd67d875b88fdbd980f8511650ef82fda0d88c5c2e"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
+metafile = true
+
+[[files]]
+file = "mods/appliede.pw.toml"
+hash = "7e6d7ffb637880ddd396676e9422c5fae96c2c8a74d5670a8b0ac7cba0bc9cc5"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
@@ -697,6 +712,16 @@ hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
+file = "mods/projecte.pw.toml"
+hash = "6ee8caccf2653121c428e4709bd7bd566188eeeea0c3410855ac7666bd2f7d28"
+metafile = true
+
+[[files]]
+file = "mods/replication.pw.toml"
+hash = "b00c1bedd7d1b328ea129ad49bd80d2e413e99112ddb017f8b933a3ec75c90e0"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
 metafile = true
@@ -769,6 +794,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "261dec07277dc19afd8be4fb305ee25fd705fc442b47df0777011efb854eaa9c"
 metafile = true
 
 [[files]]
