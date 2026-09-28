@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.sg.pickaxe",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "silentgear:pickaxe"
-  ]
+  "contents": ["silentgear:pickaxe"]
 }

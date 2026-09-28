@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.sg.sickle",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "silentgear:sickle"
-  ]
+  "contents": ["silentgear:sickle"]
 }

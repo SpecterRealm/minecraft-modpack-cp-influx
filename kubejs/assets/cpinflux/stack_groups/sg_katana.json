@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.sg.katana",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "silentgear:katana"
-  ]
+  "contents": ["silentgear:katana"]
 }

@@ -194,115 +194,115 @@ hash = "aa152f1efa96fde594ba6c8e1d6445c803ba32ea3eef5a562423d747c6b4c23d"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_axe.json"
-hash = "b1a3585f391265135e79f1ad346bc00c7675b3995f7d201e79a9a66544070a04"
+hash = "61f02efa4f8155ea962b995678124456387ad5c1e1f24ee745d75e4db6fa07b7"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_bow.json"
-hash = "c4c0f32c9233f7c7043bd7f9024d247b2328441101a8ed64db05a7a4e7d9c51b"
+hash = "43d8776c8de6e4f91cc102fbe5753affb47e1b77c92d9159b925697be730c5ae"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_crossbow.json"
-hash = "3a2de8b557eb7eaa10bca39620a64a3fd15a8518ee0b63ee4d7698581a91857d"
+hash = "409ef6a311c1f0c339352543227f4d3d4dca1fb0d81dda02387b36af0bc5708f"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_crude_hammer.json"
-hash = "9a4847ad4d06b36f28113e5949099318e37e539ff766d1be77f02bcc1d25975d"
+hash = "aec4f6cc66858d42015867586d62335d9a0fc972259db278ae1905e0958f6dd3"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_crude_knife.json"
-hash = "e14582209915daa491921a4e91f2d1f1e28dce8b8badaab6bfd609973a838d84"
+hash = "5a20289907490c6a6c159eafcb6f275c809b48b6b1f68d0b27d83ae930a3afb2"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_dagger.json"
-hash = "6c4497faf6496767fd792c24964e903e37dd7957862f262da2e56100c69a7713"
+hash = "34b274bda9cb3a94c43b4bf7b60489f1078a351157c70a05bc73448dba19124f"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_elytra.json"
-hash = "8a7a285b0a8cb62e2b4aba0a14d57e3350d47737a96a9a970249e3a9e1c47271"
+hash = "1f44e483239d1ce3f23e733905889711dbfa9feb234fc8165503a470c71b56c0"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_excavator.json"
-hash = "08f77d50a2b08129cfcd24096abccb5472f5c17161ca484d3fbcee9c232e6921"
+hash = "4a1b3fc6f2c268376a006d9cb141383b72c7ef93466e9c446df01af1c94757f1"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_fishing_rod.json"
-hash = "1496ea4a24485dbc411f33fa44c90af523c983f5bac032439fa90811b4954bf4"
+hash = "705f3c95e2df9b3780f9ac1267a95535a7230c871dad71e0d64988defbaad9a4"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_hammer.json"
-hash = "9df758e0741b9bff7f2d76ec19ee73fa349e68f0f0824db5b879e41acb41fe9f"
+hash = "8b630771f22d396d47e9c03fa30ed70e7be1f9cfa5360463bfdf637154d9cac4"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_hoe.json"
-hash = "4307bd4e44bc9c9ffeed5a1a2fcccd06f1d34198873fc15011b734afca65b189"
+hash = "7f8dcfed0b59927b6f0fd657590f1af4e0767aff6df386a410e2c947725fe1ab"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_katana.json"
-hash = "93a06bc40c8bb1b7c3d88663e2a541d7d88fea83f0765eb5ac271e9a7a89a29a"
+hash = "1eb5ce18b29a22a8382a2faa9bdbf72561010f1f7fe379ac67614db2c4f046bf"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_knife.json"
-hash = "48110f5e76f26980d64744cfd4228fd4b3827d1fa4ea14345254f7d23b2579f2"
+hash = "b43c0a1d0e841b6154ef30c4df1171f115cc2596322142a0dc5f3b763e26cd4b"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_mace.json"
-hash = "9caffa029f3bd8afdca807f849edf2cade52556af6fc9794f103dd20db4592b2"
+hash = "561d0d3596356a033a36e6d1f0eb3dd5ae87f387cfb284181e4ac16fc14cced5"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_machete.json"
-hash = "36fa1d7acf75b90d35bab737ea0997427e2e77bf2704ab535ce42129fe381a74"
+hash = "4becc9dc8ca91620a4c168af70d9a27583d04988e9c21b4080498a6abb44557e"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_mattock.json"
-hash = "99add812acf0f981b9e50788359598ed2f07401a5f5e2ca183cd4123b4b1430a"
+hash = "2f6281707ff9bf4dd8710124931eb2098af7fd67f34e93cc8a41ddd164e9818e"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_paxel.json"
-hash = "bf69bffb36df422f0d5d614ca6194394e69dacaee1a2255dc2c3b3b443cef384"
+hash = "7ff24cec11262f7b059a87a482b621b4c401a6fb51f7e840dd16f6163fe4be0b"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_pickaxe.json"
-hash = "d61181a65bff0efe5835667ca5c506dea283d5a6372c573e2582ee4d70ba82dc"
+hash = "dcec5abd8e2e644ced206ae6b36eff20a4f65e03ee4b34b7724e387ee40da913"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_prospector_hammer.json"
-hash = "1930f1354fb0c2fa5094edd6bf7469ad101ed146ac5adc17c5f4970acf06e0d5"
+hash = "6724fde98b00f3b65c79514021954897481c16ceeb4b2a261595134c790769c6"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_saw.json"
-hash = "4f38996f651eadf380e01de7fdb620777370ab9cd3e72fad2dd441d6061e6424"
+hash = "9385f4fea04f867dee39f35172cbdfbac27c52012c0f0712fc8a9c2982effa94"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_shears.json"
-hash = "6291108ba78f03cf7811cd64dc8b4ef73f32739a0344b1f89137965247d739ba"
+hash = "2c6daa7d1fdd710468b5435998e148d93be811f7ce7a90e75bd277a62b002d2f"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_shield.json"
-hash = "ca6e1edb7a5b8e0c6aa00b96cecf35cdeb43e9610c08b412712b1b8bf6db13cf"
+hash = "292c90ed1b1e938f9387c6db33b3cae8a26382eee72c1cba53673dd854d3a975"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_shovel.json"
-hash = "596e456b43bedb3370883df6a940257a72c3a8eab9454efccb7962e970ba5553"
+hash = "6b4c3e5b6b4aa282922f11fb316430d086891fdecf1b9b46f7f5a938a9d33111"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_sickle.json"
-hash = "510307fa83aa35e45d78e9649a4b165edb0c4678fc354bf579d70ce0f0e4eb35"
+hash = "1c98f378544529ed4f1c4ad00d2b71654c7f705b90c04710ac0cc139c038513e"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_slingshot.json"
-hash = "73346e88bb3f463678d2060fc755dadb897b0b7281e1936d56700f4106e79abe"
+hash = "a12be1ed818781796788e8c571248dfa656f8c6bd96a80fe7ca44a316e926c02"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_spear.json"
-hash = "dd279de298dd601d1156e9d8af84b669cc74f6417e8e3d5a301eeabe571abe3e"
+hash = "f369a945cce08ba40dad1dcbdf5af7c5f371c2cbd9cc809023adc391ad44d8b6"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_sword.json"
-hash = "8ca8378906762bb9f3d2c81d56135c6123c3469cc680252a97c66f370e835b14"
+hash = "ca5791781c5e7388a6422e34b1c9e8e89ea6a5479da544391e4ae883baf34abd"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sg_trident.json"
-hash = "6ae98e9964aaea3ea77ac926cb1f41cc0500ee02784031f229e20d6929b7635e"
+hash = "895a2b3841ad9c8ee4724d1ab79bf736f7d825cd2ea4be53085613d6fdb93bb7"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/sleeping_bags.json"
@@ -310,147 +310,147 @@ hash = "6359ee70e3adee2eee0f5b11008e75a8404ba132d38e0baf18c7d39e625572b5"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_basic.json"
-hash = "75fb86a02aec435a6bc253d853e3764ca11f3fae83944f2c6abae1b0d0e4f935"
+hash = "4bec3343e2d55673cbc8ad0444cbef443a61a9dd570ebfdca00670d1210e045d"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_copper.json"
-hash = "0a983905a3503db7dab014ee6656025de6087b48bf0c84ca07c0d9efc534dbea"
+hash = "928527baa08a867d6616c7edcdc6feb43191c8b60267793baf270624936f60c5"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_diamond.json"
-hash = "6c5323d1c633dd6d6c07459c8a47430627e3afb6704fa335ce0efc4dc7c80aa4"
+hash = "9120d5f50863b3fed122b19abdf34aef79cbc2e920efdb051570676d42efc540"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_gold.json"
-hash = "f9dbdb32126828babfa983a9b03ea53b01d1c92fff71d1ac29d09dd6191b9ce7"
+hash = "7d1e6e7c01265269c0250270590056a856b6637d48527321b89aefb9a57b0951"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_iron.json"
-hash = "d1823e85966123096ad63cb186100eca231ac2d6a93b11500bc62271ee75a253"
+hash = "75fa38fa7c0a3822abd5fdb1bc6acfad8e7dd0b1be28e1316b407980632528bd"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_netherite.json"
-hash = "68705f1855e0973593262481431ac1c4f2a1b407b8a1f681556817dda40c6f76"
+hash = "89d0f7a57e8620b7a6003018f6ce4106ab632a6a0145f0b2777b90b624c97ad8"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_basic.json"
-hash = "076fc7722cf976aa0fe91967e72da9f3ffac81b436c08fff0925e0338b4f7a7e"
+hash = "246a040b5282cceefd34f8245cb63995644e77f7f1af61e9e68438bb6ab6b204"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_copper.json"
-hash = "e038dcc9490481bae766bf04dee6c689da70b4f78b7db1e26b3abcef0b5fa47e"
+hash = "2b4fbf7610f48f1f15794517ae76e52a309001acd28553e0713a52b39686ff8d"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_diamond.json"
-hash = "bf585569ed05f227e326db24ed3040cb1bd9fe42001832e18dadc7bafd8b5ea7"
+hash = "27ebb7750e97feb1c881ba83b037e96386d3b565a54dd4cad15df143452fef20"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_gold.json"
-hash = "a597197df5fc3d3b5cb1eed31e50c8010a8353e51dc580f5f7ecdbf2f8a067a6"
+hash = "a2fd52ff33ca4b635917b645a384fe153859a4d2a56229b6444097140fd690d2"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_iron.json"
-hash = "8e770b9673ad40b246b9894d2e79ea805f75576f69619813485557286dfd7b96"
+hash = "6591a8f5efb08745f64bfd54a4d22581007a622c0ae4bb46f79e961924ddc348"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_chest_netherite.json"
-hash = "76cf09f7312ac2d248dc5e518fac9a8fdab189200bd6793dbdf3bfa7623f0ee4"
+hash = "12b98c4cb499fe1322dad61a498060b73bf943fcb10d8f18850e02fc32c59710"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_1.json"
-hash = "0aabe40e425190e8d2169ae50650eafe0202b0d7c10483c55e6fbf6852ca6c7c"
+hash = "53532f404f6a95d66e02dca91702fc7ca51b401af6d038fa126d9cd24b612341"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_2.json"
-hash = "8dc48b18e012cc28a915cd16f33bf0437f0adb9500cc2cb3043214122379492d"
+hash = "1958bcc4a002d5fc11db63ce541684029eeec47b772ca52040a5a58e441ea9d8"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_3.json"
-hash = "07761638c10e7fe58d477732ae5561071409120393b0c28d3d03e25c49e39179"
+hash = "d4e741ee66f6201924b9d3930e783ad1f118e4e65bfea0cbf0748aa1651ca895"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_4.json"
-hash = "8adba3621265ec24e952f773b6687ef9dd1ef04c23a70cdf7dcc2a3080de4484"
+hash = "485e5dea794df90af1cb798259c7484c9f57340931ec90d5d01ecea3b513d950"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_1.json"
-hash = "00af3421ccd9648a1b036c3c395027c3420bfd9662c4e28c9e2846aeb51952bb"
+hash = "a6a5e51822543cd0424d85f8e5943fee6b77db77c1401873a1762a4f213f9ecf"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_2.json"
-hash = "82ba6c00e4e021023bc8c49dc8fefe9d90b280e11a41cc76004376b26a71a46f"
+hash = "3d5a7968841edad5aab415c82604477a17aaaba9b9e7fab698202fa0565f3222"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_3.json"
-hash = "e58023aec5b0f934e1b0ff70abf1822db5abde5bd348988b2897679c01041d08"
+hash = "e6c27a18a5b7291664d8af8c6967880b9bb77e7773a7e1a30c0c2728686bc93d"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_4.json"
-hash = "99010313b79574c933d0ad1817216f18ad8ae4ba07a09d164c1bf3cffb7615f2"
+hash = "2a07e1eec03a403b1b6ff7e41fc52531ccd4820e7e663ebb38c04cd5c3894bfa"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_1.json"
-hash = "caf8f9cb8d86a5738b28a9acc6fc5a61f1077f2ec25c1a21aa28a04b99b2077d"
+hash = "db824f2a492677a0a04d7702b8241766408b818f8eeff65ffdb1df31c2dfb5c4"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_2.json"
-hash = "24ca7e4222aa905e3d91784b8913ee1d6eaded6c00ab5f8fc419a4e848f26744"
+hash = "e50e78de0996d0aa344449c516ba680184aba6d9e1ade62a89f602a613d107ff"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_3.json"
-hash = "289165ec35e2d8c7dc89434235f281301a0591c7d49edc139a96d1af240b5554"
+hash = "73fd0f0f1df7ed0e6d4a54ce11cd31aaef237c7798c250eee3071126ec7c5b4d"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_4.json"
-hash = "7ebc5ede381f4f174ce96d8100206204eb28f5bc6fbd3723a9765c9ad3d02d68"
+hash = "e804dcd7e4579411c97abd9afb23cb73a7230964e589dba5bdb1e78f799c632e"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_1.json"
-hash = "5e9160f3a39b01ad5f75aff1b4e57c53474ff34314da34d11c05f01441bf060b"
+hash = "42e6460cbf227b90958c049427ae0631f1203ca777483dc45c95f97504bfa3f5"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_2.json"
-hash = "4a0e40ccd00c089a7d7399776a34ea47d00afa15dad1d824d03e619c0bf7ad90"
+hash = "d9ee5759426599c2fcc48b940509641ca54dc5d90997e6696bd3fde615cc94d4"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_3.json"
-hash = "1868ae2bbef47a3700785b0f3c1a8ba7cfeb7964f70da02d6b62e323de319c6a"
+hash = "8b25ccafbf47d56cd2c2105a8fea5cb24f6ea06607659ff06e6e113cd1cba8a8"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_4.json"
-hash = "1272f7509b1bb3d07cd6c59dd5d9da5cf024dbc0abf78fc6cb024ea2a22f67d0"
+hash = "fc974a2a52883fa2e5569b19881dd8fbfe19921cb40bd98b09f20089284a8c4e"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_1.json"
-hash = "9fa8b7c82b663665ed524f3a2a17469038f4ec8b67ec14614e027dc9a6e0d4a5"
+hash = "ab0fe3fdef552ddd91a74c0f5b5eb835cdf311a82c7dea65e98d626a262fd5df"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_2.json"
-hash = "f9555e322b58a64be30c7ffa8c0b63b78783b06c3460e65e9dbb0968902165f9"
+hash = "513cb64c00e4b1387de3444db75398c8a890e0c2d7396dcb736d9c5dd68fd197"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_3.json"
-hash = "f9da01d111d9cd4791823dbb64b6d5963539bcfc4fb01033525888ec6d951ce7"
+hash = "195b2f99ab948ad40c3b326937290c526e8734648d5724536bc7148a0f027b6b"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_4.json"
-hash = "b5ef8d6de78cc1b844d4e0f4eb3c382f07aff2c2ba2d2272e53985c656b19123"
+hash = "5c7d89de22da75ae445727d86ea646dabee5fef393e4fa810cd70b5ee44a4337"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_1.json"
-hash = "f75981263f55277f17b372c0b2d01f3c83ece8790701bdc19c4e251dd1892b71"
+hash = "04246d52caea2f670e1f74eca695429ed260eefa1f8611bc80da38eb46654dbe"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_2.json"
-hash = "ee81cb9645403df528359d5da0aebbdbd8ba0dba00d856ef897aa4fa5827b464"
+hash = "e2584f14e3557de278022807f74023dec242d5a6a2725e4c1c11588b150d92a2"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_3.json"
-hash = "eab4de8aa935cdb7a6e6187d5fe9982d6ff58590605b71b2b120c8112db99414"
+hash = "74f16ce1294c47e0d46d821a50341cb7f60a03a1462131ce98318ad1863b0b4b"
 
 [[files]]
 file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_4.json"
-hash = "770d06d12102bfefa38aadeb8f4f8cd383b69b443d3564a3453492c83311e210"
+hash = "d146bd30708cc91ae7ea42ffb1670a574b7e223a410513662e73561e5d4d66a6"
 
 [[files]]
 file = "kubejs/client_scripts/.gitkeep"

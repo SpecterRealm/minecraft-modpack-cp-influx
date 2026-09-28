@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.ss.chest.iron",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "sophisticatedstorage:iron_chest"
-  ]
+  "contents": ["sophisticatedstorage:iron_chest"]
 }

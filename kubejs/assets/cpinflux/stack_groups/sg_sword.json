@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.sg.sword",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "silentgear:sword"
-  ]
+  "contents": ["silentgear:sword"]
 }

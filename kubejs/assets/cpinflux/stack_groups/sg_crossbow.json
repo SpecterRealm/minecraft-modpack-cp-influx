@@ -3,7 +3,5 @@
   "name": "stackgroup.cpinflux.sg.crossbow",
   "type": "emixx:group",
   "enabled": true,
-  "contents": [
-    "silentgear:crossbow"
-  ]
+  "contents": ["silentgear:crossbow"]
 }
