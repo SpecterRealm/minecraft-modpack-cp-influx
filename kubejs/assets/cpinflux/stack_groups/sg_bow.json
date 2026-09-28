@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/bow",
+  "name": "stackgroup.cpinflux.sg.bow",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:bow"]
+}

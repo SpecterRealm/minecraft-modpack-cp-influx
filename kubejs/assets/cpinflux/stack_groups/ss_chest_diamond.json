@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/chest/diamond",
+  "name": "stackgroup.cpinflux.ss.chest.diamond",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:diamond_chest"]
+}

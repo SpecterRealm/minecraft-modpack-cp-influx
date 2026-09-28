@@ -5,6 +5,22 @@ file = "README.md"
 hash = "95a116c7ef6695aeb8e49f74b405198da816c204e64a51208d0f48229e73a40c"
 
 [[files]]
+file = "config/emi-client.toml"
+hash = "f1bd2e4efc2b7e561e9aba36475dccbb113a17c4a4abbddfb6475493e9db02b8"
+
+[[files]]
+file = "config/emi.css"
+hash = "368b86570b373bea461aa58758964a82fdfbbef1585823ebb1ba98e39f1c4022"
+
+[[files]]
+file = "config/emi_patternizer-client.toml"
+hash = "f2e4b9c77a0f1de9aa3db45cb366cb89165695cca786663c5b4c92610d369993"
+
+[[files]]
+file = "config/emixx/emixx-client.toml"
+hash = "13bf83e58184d2f36a57b8da3e2c69f0c492891ae78c485fc26498bf57e520a9"
+
+[[files]]
 file = "config/fancymenu/assets/cpinflux_bridge_loading_bg.png"
 hash = "dcadc06bb91b508feeda6efd3606ceebed027d97ce129977ab8fe78081596a37"
 
@@ -113,6 +129,30 @@ file = "config/ftbquests/quests/quests.snbt"
 hash = "968347f3aeeb897f2eba6b93d4039e4aba47ee62586ded10682da8deba067da7"
 
 [[files]]
+file = "config/jei-server.toml"
+hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
+
+[[files]]
+file = "config/jei/blacklist.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "aaa020f6e26dcd06b3396268abbfc6a0df6d9ea65d3ca0b9839661c221a4859e"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "e4bc0c5fce5a7536bce14c94b30e30482e65d63792b29db0ad59d4fa9eb4d1a5"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "39b7d63de65fbf7654ee33d521d67095aa17a93226d2d9b7a6fb09305c8990d4"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
+
+[[files]]
 file = "defaultconfigs/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -121,12 +161,316 @@ file = "kubejs/README.md"
 hash = "64462d0e1fe19c8d8a6397204d7d6a0b5bdf17f0a5d1168d998cd3e33c6027d5"
 
 [[files]]
+file = "kubejs/assets/cpinflux/lang/en_us.json"
+hash = "b829f67c7bba689653023057ef2982b0b01827ab4c4ec5748f321919bea1c63a"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/armor_boots.json"
+hash = "9f0bad7a2e5bc422f9476879f85436936d8e81be1118cec97433c117d64b8ae0"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/armor_chestplates.json"
+hash = "1d6047217a07268573af7319977f736b7899035c155ecd9e633bb0548bc3335d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/armor_helmets.json"
+hash = "b373afe874c10427c98de9e46a1b82505b6307c6bc1533ad2097dc4f50bb8869"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/armor_leggings.json"
+hash = "eeee2f6e763cc37336709d1233734584e6181beb4d3f33409dd43ba772063f48"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/backpacks.json"
+hash = "2022c30452abd8f20489a9d358bf8c69216c8ce96e1b8f619b24d79d3246ef91"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/filled_buckets.json"
+hash = "ad2bcc57c938501b49cc9ff96962ecdbe07d345f43558ee7fe31543ec81ea45d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/hammocks.json"
+hash = "aa152f1efa96fde594ba6c8e1d6445c803ba32ea3eef5a562423d747c6b4c23d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_axe.json"
+hash = "61f02efa4f8155ea962b995678124456387ad5c1e1f24ee745d75e4db6fa07b7"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_bow.json"
+hash = "43d8776c8de6e4f91cc102fbe5753affb47e1b77c92d9159b925697be730c5ae"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_crossbow.json"
+hash = "409ef6a311c1f0c339352543227f4d3d4dca1fb0d81dda02387b36af0bc5708f"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_crude_hammer.json"
+hash = "aec4f6cc66858d42015867586d62335d9a0fc972259db278ae1905e0958f6dd3"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_crude_knife.json"
+hash = "5a20289907490c6a6c159eafcb6f275c809b48b6b1f68d0b27d83ae930a3afb2"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_dagger.json"
+hash = "34b274bda9cb3a94c43b4bf7b60489f1078a351157c70a05bc73448dba19124f"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_elytra.json"
+hash = "1f44e483239d1ce3f23e733905889711dbfa9feb234fc8165503a470c71b56c0"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_excavator.json"
+hash = "4a1b3fc6f2c268376a006d9cb141383b72c7ef93466e9c446df01af1c94757f1"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_fishing_rod.json"
+hash = "705f3c95e2df9b3780f9ac1267a95535a7230c871dad71e0d64988defbaad9a4"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_hammer.json"
+hash = "8b630771f22d396d47e9c03fa30ed70e7be1f9cfa5360463bfdf637154d9cac4"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_hoe.json"
+hash = "7f8dcfed0b59927b6f0fd657590f1af4e0767aff6df386a410e2c947725fe1ab"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_katana.json"
+hash = "1eb5ce18b29a22a8382a2faa9bdbf72561010f1f7fe379ac67614db2c4f046bf"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_knife.json"
+hash = "b43c0a1d0e841b6154ef30c4df1171f115cc2596322142a0dc5f3b763e26cd4b"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_mace.json"
+hash = "561d0d3596356a033a36e6d1f0eb3dd5ae87f387cfb284181e4ac16fc14cced5"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_machete.json"
+hash = "4becc9dc8ca91620a4c168af70d9a27583d04988e9c21b4080498a6abb44557e"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_mattock.json"
+hash = "2f6281707ff9bf4dd8710124931eb2098af7fd67f34e93cc8a41ddd164e9818e"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_paxel.json"
+hash = "7ff24cec11262f7b059a87a482b621b4c401a6fb51f7e840dd16f6163fe4be0b"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_pickaxe.json"
+hash = "dcec5abd8e2e644ced206ae6b36eff20a4f65e03ee4b34b7724e387ee40da913"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_prospector_hammer.json"
+hash = "6724fde98b00f3b65c79514021954897481c16ceeb4b2a261595134c790769c6"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_saw.json"
+hash = "9385f4fea04f867dee39f35172cbdfbac27c52012c0f0712fc8a9c2982effa94"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_shears.json"
+hash = "2c6daa7d1fdd710468b5435998e148d93be811f7ce7a90e75bd277a62b002d2f"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_shield.json"
+hash = "292c90ed1b1e938f9387c6db33b3cae8a26382eee72c1cba53673dd854d3a975"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_shovel.json"
+hash = "6b4c3e5b6b4aa282922f11fb316430d086891fdecf1b9b46f7f5a938a9d33111"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_sickle.json"
+hash = "1c98f378544529ed4f1c4ad00d2b71654c7f705b90c04710ac0cc139c038513e"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_slingshot.json"
+hash = "a12be1ed818781796788e8c571248dfa656f8c6bd96a80fe7ca44a316e926c02"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_spear.json"
+hash = "f369a945cce08ba40dad1dcbdf5af7c5f371c2cbd9cc809023adc391ad44d8b6"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_sword.json"
+hash = "ca5791781c5e7388a6422e34b1c9e8e89ea6a5479da544391e4ae883baf34abd"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sg_trident.json"
+hash = "895a2b3841ad9c8ee4724d1ab79bf736f7d825cd2ea4be53085613d6fdb93bb7"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/sleeping_bags.json"
+hash = "6359ee70e3adee2eee0f5b11008e75a8404ba132d38e0baf18c7d39e625572b5"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_basic.json"
+hash = "4bec3343e2d55673cbc8ad0444cbef443a61a9dd570ebfdca00670d1210e045d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_copper.json"
+hash = "928527baa08a867d6616c7edcdc6feb43191c8b60267793baf270624936f60c5"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_diamond.json"
+hash = "9120d5f50863b3fed122b19abdf34aef79cbc2e920efdb051570676d42efc540"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_gold.json"
+hash = "7d1e6e7c01265269c0250270590056a856b6637d48527321b89aefb9a57b0951"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_iron.json"
+hash = "75fa38fa7c0a3822abd5fdb1bc6acfad8e7dd0b1be28e1316b407980632528bd"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_barrel_netherite.json"
+hash = "89d0f7a57e8620b7a6003018f6ce4106ab632a6a0145f0b2777b90b624c97ad8"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_basic.json"
+hash = "246a040b5282cceefd34f8245cb63995644e77f7f1af61e9e68438bb6ab6b204"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_copper.json"
+hash = "2b4fbf7610f48f1f15794517ae76e52a309001acd28553e0713a52b39686ff8d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_diamond.json"
+hash = "27ebb7750e97feb1c881ba83b037e96386d3b565a54dd4cad15df143452fef20"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_gold.json"
+hash = "a2fd52ff33ca4b635917b645a384fe153859a4d2a56229b6444097140fd690d2"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_iron.json"
+hash = "6591a8f5efb08745f64bfd54a4d22581007a622c0ae4bb46f79e961924ddc348"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_chest_netherite.json"
+hash = "12b98c4cb499fe1322dad61a498060b73bf943fcb10d8f18850e02fc32c59710"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_1.json"
+hash = "53532f404f6a95d66e02dca91702fc7ca51b401af6d038fa126d9cd24b612341"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_2.json"
+hash = "1958bcc4a002d5fc11db63ce541684029eeec47b772ca52040a5a58e441ea9d8"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_3.json"
+hash = "d4e741ee66f6201924b9d3930e783ad1f118e4e65bfea0cbf0748aa1651ca895"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_basic_4.json"
+hash = "485e5dea794df90af1cb798259c7484c9f57340931ec90d5d01ecea3b513d950"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_1.json"
+hash = "a6a5e51822543cd0424d85f8e5943fee6b77db77c1401873a1762a4f213f9ecf"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_2.json"
+hash = "3d5a7968841edad5aab415c82604477a17aaaba9b9e7fab698202fa0565f3222"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_3.json"
+hash = "e6c27a18a5b7291664d8af8c6967880b9bb77e7773a7e1a30c0c2728686bc93d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_copper_4.json"
+hash = "2a07e1eec03a403b1b6ff7e41fc52531ccd4820e7e663ebb38c04cd5c3894bfa"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_1.json"
+hash = "db824f2a492677a0a04d7702b8241766408b818f8eeff65ffdb1df31c2dfb5c4"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_2.json"
+hash = "e50e78de0996d0aa344449c516ba680184aba6d9e1ade62a89f602a613d107ff"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_3.json"
+hash = "73fd0f0f1df7ed0e6d4a54ce11cd31aaef237c7798c250eee3071126ec7c5b4d"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_diamond_4.json"
+hash = "e804dcd7e4579411c97abd9afb23cb73a7230964e589dba5bdb1e78f799c632e"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_1.json"
+hash = "42e6460cbf227b90958c049427ae0631f1203ca777483dc45c95f97504bfa3f5"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_2.json"
+hash = "d9ee5759426599c2fcc48b940509641ca54dc5d90997e6696bd3fde615cc94d4"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_3.json"
+hash = "8b25ccafbf47d56cd2c2105a8fea5cb24f6ea06607659ff06e6e113cd1cba8a8"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_gold_4.json"
+hash = "fc974a2a52883fa2e5569b19881dd8fbfe19921cb40bd98b09f20089284a8c4e"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_1.json"
+hash = "ab0fe3fdef552ddd91a74c0f5b5eb835cdf311a82c7dea65e98d626a262fd5df"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_2.json"
+hash = "513cb64c00e4b1387de3444db75398c8a890e0c2d7396dcb736d9c5dd68fd197"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_3.json"
+hash = "195b2f99ab948ad40c3b326937290c526e8734648d5724536bc7148a0f027b6b"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_iron_4.json"
+hash = "5c7d89de22da75ae445727d86ea646dabee5fef393e4fa810cd70b5ee44a4337"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_1.json"
+hash = "04246d52caea2f670e1f74eca695429ed260eefa1f8611bc80da38eb46654dbe"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_2.json"
+hash = "e2584f14e3557de278022807f74023dec242d5a6a2725e4c1c11588b150d92a2"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_3.json"
+hash = "74f16ce1294c47e0d46d821a50341cb7f60a03a1462131ce98318ad1863b0b4b"
+
+[[files]]
+file = "kubejs/assets/cpinflux/stack_groups/ss_limited_netherite_4.json"
+hash = "d146bd30708cc91ae7ea42ffb1670a574b7e223a410513662e73561e5d4d66a6"
+
+[[files]]
 file = "kubejs/client_scripts/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "kubejs/data/cpinflux/tags/item/backpacks.json"
+hash = "b283fae38f33f524bc6ac30d5546c97e97bf26b8829cbbc4d356ab333bb457d1"
+
+[[files]]
+file = "kubejs/data/cpinflux/tags/item/filled_buckets.json"
+hash = "3cb4aa7a1a4592ec8e85adc4b7faf930a51fa2752a2a79b2dd88f0d65c5e772a"
+
+[[files]]
 file = "kubejs/server_scripts/README.md"
-hash = "c252c8d85fd5649c89ae54f851bd0a0d0f12d99b073858dafecfa7397bc31b32"
+hash = "97a4230e2cd93034da471b2f5f61ded2359a3fa5e0b5b9f197b6878a8bdca094"
+
+[[files]]
+file = "kubejs/server_scripts/quest_book_login.js"
+hash = "1849023771806ddf4512fe909e9d2f64bedb7ce62025fbd54e0796ac6bc9bc7a"
 
 [[files]]
 file = "kubejs/startup_scripts/.gitkeep"
@@ -476,3 +820,7 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "c129b31143323e9a97c616a8f67fcd3e9db422fa15ec9b50476131a226c3caf2"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "e43ce629adf330a211fd884a2f964df6e9cd82b9cb4cb292a56f510b643ee493"

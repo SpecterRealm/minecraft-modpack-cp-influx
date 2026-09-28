@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/chest/netherite",
+  "name": "stackgroup.cpinflux.ss.chest.netherite",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:netherite_chest"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/crude_knife",
+  "name": "stackgroup.cpinflux.sg.crude_knife",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:crude_knife"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/saw",
+  "name": "stackgroup.cpinflux.sg.saw",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:saw"]
+}

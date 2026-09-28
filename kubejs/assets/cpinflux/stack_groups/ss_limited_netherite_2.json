@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/limited_barrel/netherite/2",
+  "name": "stackgroup.cpinflux.ss.limited_barrel.netherite.2",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:limited_netherite_barrel_2"]
+}

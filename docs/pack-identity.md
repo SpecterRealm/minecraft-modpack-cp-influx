@@ -27,3 +27,7 @@ make refresh
 ```
 
 Pin Soft / candidate jars only after 1.21.1 confirm + smoke-test. Prefer documenting TODOs over guessing pins.
+
+## Recipe viewer defaults
+
+Shipped EMI/JEI configs match Verdant/Elysian patterns (`index-source = registered`, EMI++ stack groups on, JEI `maxColumns = 12`). Sophisticated Storage wood-variant barrels/chests collapse via `kubejs/assets/cpinflux/stack_groups/ss_*.json`. Verify barrel page count in Prism after pull.

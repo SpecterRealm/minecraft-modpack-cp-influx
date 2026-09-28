@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/dagger",
+  "name": "stackgroup.cpinflux.sg.dagger",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:dagger"]
+}

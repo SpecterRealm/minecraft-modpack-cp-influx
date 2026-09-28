@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/paxel",
+  "name": "stackgroup.cpinflux.sg.paxel",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:paxel"]
+}

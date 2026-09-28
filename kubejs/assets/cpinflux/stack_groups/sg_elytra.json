@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/elytra",
+  "name": "stackgroup.cpinflux.sg.elytra",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:elytra"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:hammocks",
+  "name": "stackgroup.cpinflux.hammocks",
+  "type": "emixx:tag",
+  "enabled": true,
+  "tag": "comforts:hammocks"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/chest/copper",
+  "name": "stackgroup.cpinflux.ss.chest.copper",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:copper_chest"]
+}

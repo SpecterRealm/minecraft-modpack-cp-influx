@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:armor_helmets",
+  "name": "stackgroup.cpinflux.armor_helmets",
+  "type": "emixx:tag",
+  "enabled": true,
+  "tag": "minecraft:head_armor"
+}

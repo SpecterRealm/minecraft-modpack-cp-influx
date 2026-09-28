@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/barrel/iron",
+  "name": "stackgroup.cpinflux.ss.barrel.iron",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:iron_barrel"]
+}

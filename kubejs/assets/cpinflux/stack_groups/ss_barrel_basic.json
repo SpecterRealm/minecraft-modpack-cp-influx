@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:ss/barrel/basic",
+  "name": "stackgroup.cpinflux.ss.barrel.basic",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["sophisticatedstorage:barrel"]
+}

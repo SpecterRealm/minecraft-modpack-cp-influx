@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sg/shield",
+  "name": "stackgroup.cpinflux.sg.shield",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": ["silentgear:shield"]
+}
