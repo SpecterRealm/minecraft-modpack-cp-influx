@@ -16,10 +16,13 @@ Ship-in-void genetics / digital teaching — mad-science recycle; debris → typ
 
 ## Dev loop
 
-1. Edit → `make refresh` → `make serve` → Prism pre-launch pulls `http://localhost:8080/pack.toml`
-2. `make help` for exports / config pull
-3. Do **not** invent final pillar modlists — soft pins + TODOs only
-4. Quests teach; rewards = QoL + Field Manual pages — **never** progression gates
+1. Edit → `make refresh` → `make serve-bg` → Launch `CP-Influx-Dev` in Prism (PreLaunch pulls `http://localhost:8080/pack.toml`)
+2. Stop with `make serve-stop` (aliases: `down`, `stop`)
+3. `make help` — smoke path listed first; also exports / config pull
+4. Do **not** invent final pillar modlists — soft pins + TODOs only
+5. Quests teach; rewards = QoL + Field Manual pages — **never** progression gates
+
+First-time (Prism closed): `make setup-dev` (jars + PreLaunch + RAM/window). Optional: `make prune-instance-orphans` after pack removals.
 
 ## Design pointers
 
