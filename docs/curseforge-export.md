@@ -1,5 +1,8 @@
 # CurseForge export — Colony Protocol: Influx
 
+**CF project:** [colony-protocol-influx](https://www.curseforge.com/minecraft/modpacks/colony-protocol-influx) · Authors / project id **`1715476`**  
+Set GitHub repo variable `CURSEFORGE_PROJECT_ID=1715476` when upload automation is wired (Verdant `curseforge-upload.md` pattern).
+
 **Default:** `make export-cf` → `dist/Colony-Protocol-Influx-<version>-curseforge.zip`
 
 ## Rules (match Verdant)
