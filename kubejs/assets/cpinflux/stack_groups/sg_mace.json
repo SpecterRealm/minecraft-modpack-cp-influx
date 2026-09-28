@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/mace",
+  "name": "stackgroup.cpinflux.sg.mace",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:mace"
+  ]
+}

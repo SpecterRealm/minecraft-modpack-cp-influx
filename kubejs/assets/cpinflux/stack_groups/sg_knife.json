@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/knife",
+  "name": "stackgroup.cpinflux.sg.knife",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:knife"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/katana",
+  "name": "stackgroup.cpinflux.sg.katana",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:katana"
+  ]
+}

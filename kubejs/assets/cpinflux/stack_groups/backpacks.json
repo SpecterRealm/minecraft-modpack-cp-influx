@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:backpacks",
+  "name": "stackgroup.cpinflux.backpacks",
+  "type": "emixx:tag",
+  "enabled": true,
+  "tag": "cpinflux:backpacks"
+}

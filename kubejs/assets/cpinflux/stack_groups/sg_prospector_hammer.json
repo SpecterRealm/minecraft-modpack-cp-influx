@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/prospector_hammer",
+  "name": "stackgroup.cpinflux.sg.prospector_hammer",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:prospector_hammer"
+  ]
+}

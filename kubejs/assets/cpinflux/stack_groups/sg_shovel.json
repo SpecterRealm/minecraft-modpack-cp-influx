@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/shovel",
+  "name": "stackgroup.cpinflux.sg.shovel",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:shovel"
+  ]
+}

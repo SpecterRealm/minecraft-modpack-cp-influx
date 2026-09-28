@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/trident",
+  "name": "stackgroup.cpinflux.sg.trident",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:trident"
+  ]
+}

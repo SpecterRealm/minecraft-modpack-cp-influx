@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:ss/barrel/gold",
+  "name": "stackgroup.cpinflux.ss.barrel.gold",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "sophisticatedstorage:gold_barrel"
+  ]
+}

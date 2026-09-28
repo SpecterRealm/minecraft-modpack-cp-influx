@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:ss/barrel/diamond",
+  "name": "stackgroup.cpinflux.ss.barrel.diamond",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "sophisticatedstorage:diamond_barrel"
+  ]
+}

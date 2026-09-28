@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:ss/chest/gold",
+  "name": "stackgroup.cpinflux.ss.chest.gold",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "sophisticatedstorage:gold_chest"
+  ]
+}

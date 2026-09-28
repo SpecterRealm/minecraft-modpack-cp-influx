@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/machete",
+  "name": "stackgroup.cpinflux.sg.machete",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:machete"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/spear",
+  "name": "stackgroup.cpinflux.sg.spear",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:spear"
+  ]
+}

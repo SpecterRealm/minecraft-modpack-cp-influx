@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:sleeping_bags",
+  "name": "stackgroup.cpinflux.sleeping_bags",
+  "type": "emixx:tag",
+  "enabled": true,
+  "tag": "comforts:sleeping_bags"
+}

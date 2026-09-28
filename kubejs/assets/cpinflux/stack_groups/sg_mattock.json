@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/mattock",
+  "name": "stackgroup.cpinflux.sg.mattock",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:mattock"
+  ]
+}

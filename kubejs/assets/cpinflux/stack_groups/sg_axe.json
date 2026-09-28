@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/axe",
+  "name": "stackgroup.cpinflux.sg.axe",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:axe"
+  ]
+}

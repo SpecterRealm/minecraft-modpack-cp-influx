@@ -1,0 +1,7 @@
+{
+  "id": "cpinflux:filled_buckets",
+  "name": "stackgroup.cpinflux.filled_buckets",
+  "type": "emixx:tag",
+  "enabled": true,
+  "tag": "cpinflux:filled_buckets"
+}

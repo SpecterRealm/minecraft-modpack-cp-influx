@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:ss/chest/basic",
+  "name": "stackgroup.cpinflux.ss.chest.basic",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "sophisticatedstorage:chest"
+  ]
+}

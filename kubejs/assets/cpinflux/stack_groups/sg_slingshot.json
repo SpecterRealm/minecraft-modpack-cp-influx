@@ -1,0 +1,9 @@
+{
+  "id": "cpinflux:sg/slingshot",
+  "name": "stackgroup.cpinflux.sg.slingshot",
+  "type": "emixx:group",
+  "enabled": true,
+  "contents": [
+    "silentgear:slingshot"
+  ]
+}
