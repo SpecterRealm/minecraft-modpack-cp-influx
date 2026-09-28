@@ -81,10 +81,6 @@ file = "kubejs/client_scripts/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/data/specterrealm/advancement/field_manual/README.md"
-hash = "28ce2509197c4862b261289db462ee849031a798ef140869891db7a5e7ce2a0a"
-
-[[files]]
 file = "kubejs/server_scripts/README.md"
 hash = "c252c8d85fd5649c89ae54f851bd0a0d0f12d99b073858dafecfa7397bc31b32"
 
