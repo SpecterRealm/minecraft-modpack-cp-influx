@@ -2,7 +2,51 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "d93b27e5765135c399a8788d29b548fcd725b4155dad0f4a42ba0bef10d0c965"
+hash = "95a116c7ef6695aeb8e49f74b405198da816c204e64a51208d0f48229e73a40c"
+
+[[files]]
+file = "config/fancymenu/assets/cpinflux_bridge_loading_bg.png"
+hash = "dcadc06bb91b508feeda6efd3606ceebed027d97ce129977ab8fe78081596a37"
+
+[[files]]
+file = "config/fancymenu/assets/cpinflux_bridge_pause_bg.png"
+hash = "b609a319819a423e8567fef15eb095738ca76de17844c125ee24c9fb4eb89e51"
+
+[[files]]
+file = "config/fancymenu/assets/cpinflux_bridge_title_bg.png"
+hash = "b609a319819a423e8567fef15eb095738ca76de17844c125ee24c9fb4eb89e51"
+
+[[files]]
+file = "config/fancymenu/assets/cpinflux_drippy_loading.png"
+hash = "dcadc06bb91b508feeda6efd3606ceebed027d97ce129977ab8fe78081596a37"
+
+[[files]]
+file = "config/fancymenu/assets/cpinflux_menu_bg.png"
+hash = "b609a319819a423e8567fef15eb095738ca76de17844c125ee24c9fb4eb89e51"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "f9e2aa41cef233691cd6ac096e52189ebf28dc7f45572f5795faee7d8d1396fb"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "11b1bf6841b4d3385c89475ef95fc3ee3a0233f980556553cea2d0b3fd6322c6"
+
+[[files]]
+file = "config/fancymenu/customization/level_loading_screen_layout.txt"
+hash = "bb267c90afcf66e36f60371acec5b6a72cb1151c830e4e4c25f953703f01f18b"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "3355d9450987336fa805e09fcbe06be995aca0975819aafb01182ed1e8c6d0d7"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "8ec5d4bd680936d059802ec0c891b1809f94d9cfbf0ebd925a26572304582035"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "025d3f1d83ced8c4aaafd1e9e0178a4b46cc99f9645969b2cd83e934d1bcad7a"
 
 [[files]]
 file = "config/fml.toml"
