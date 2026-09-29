@@ -1,9 +1,9 @@
 # Colony Protocol: Influx
 
-Ship-in-void **genetics / digital** teaching — mad-science recycle. Debris → typed matter → genetics. Not something-for-nothing.
+Locked in a **ship in the void** — use what you have to make everything. You can't build another floor, so you learn to recycle, convert, and breed inside the hull you've got.
 
 **Loader:** NeoForge **1.21.1** (packwiz)  
-**Series order:** Pack **3** of Colony Protocol — Verdant → Elysian → **Influx** → Liminal (recommended, not required)  
+**Series order:** Pack **3** of Colony Protocol — Verdant → Elysian → **Influx** → Liminal (recommended, not required). Series story and pack roles: [Liminal `docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md).  
 **Status:** Scaffold / coming soon — shared QoL soft-pinned; pillar mods stay soft until smoke-tested.
 
 **CurseForge:** [colony-protocol-influx](https://www.curseforge.com/minecraft/modpacks/colony-protocol-influx) (id `1715476`) — public preview / Coming Soon (no zip yet)  
@@ -11,9 +11,9 @@ Ship-in-void **genetics / digital** teaching — mad-science recycle. Debris →
 
 ## What this is
 
-You live on a **prebuilt ship in the void**, open dimensional workspaces, and rebuild resources from **something** — never from nothing. Headline: ship lab + genetics + recycle. Do **not** pitch this pack as “EMC solves everything.”
+You live on a **prebuilt ship in the void**. There is no next island and no second floor — space, not material, is what's scarce. So the pack teaches the opposite of expansion: make everything from what you have. Salvage and debris become typed matter, typed matter feeds breeding and genetics, and every loop is closed. When you do need room, it opens *inward* through AE2 Spanner pocket dimensions — usable for almost anything — not outward. Do **not** pitch this pack as “EMC solves everything.”
 
-**Soft leans (not jar locks yet):** salvage / Recovery Bay–style bootstrap → genetics / breeding for advanced mats → digital workspace tools. Efficiency ladders (if present) stay pattern-first: first copy, then convert. Quests teach and reward; they never hard-gate the pack.
+**Soft leans (not jar locks yet):** salvage / Recovery Bay–style bootstrap → genetics / breeding for advanced mats → compact, closed-loop production and digital workspace tools. Efficiency ladders (if present) stay pattern-first: first copy, then convert. Quests teach and reward; they never hard-gate the pack.
 
 ## Install tip (players)
 
@@ -40,14 +40,9 @@ Optional after pack removals (packwiz does not delete leftovers): `make prune-in
 
 See [docs/workflow.md](docs/workflow.md).
 
-## Series siblings
+## The series
 
-| Pack | Role | CF |
-|------|------|-----|
-| [Verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Pack 1 — overworld, no ore veins, sieve loop | [colony-protocol-verdant](https://www.curseforge.com/minecraft/modpacks/colony-protocol-verdant) |
-| [Elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Pack 2 — void magic | [colony-protocol-elysian](https://www.curseforge.com/minecraft/modpacks/colony-protocol-elysian) (preview) |
-| **Influx** (this repo) | Pack 3 — ship lab / genetics | [colony-protocol-influx](https://www.curseforge.com/minecraft/modpacks/colony-protocol-influx) (preview) |
-| [Liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | Pack 4 — planetfall reunite | [colony-protocol-liminal](https://www.curseforge.com/minecraft/modpacks/colony-protocol-liminal) (preview) |
+Influx is pack 3 of Colony Protocol. Pack roles, sibling links, CurseForge projects, and the full story live in Liminal, the series source of truth: **[`docs/series/README.md`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md)**.
 
 Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm-core) · CF [SpecterRealm Core](https://www.curseforge.com/minecraft/mc-mods/specterrealm-core)
 
@@ -64,6 +59,7 @@ Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm
 
 ## Design pointers
 
-Project store: `docs/influx-core-mods.md` · `pack-progression-arcs.md` §I · `influx-bay-alternatives.md` (Recovery Bay = KubeJS fallback only) · `influx-resource-loops.md`.
+- Pack identity and scope: [`docs/pack-identity.md`](docs/pack-identity.md)
+- Series story, pack roles, mod ownership: [Liminal `docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md)
 
 Tooling reference: [Verdant pack-template](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant/blob/main/docs/pack-template.md).

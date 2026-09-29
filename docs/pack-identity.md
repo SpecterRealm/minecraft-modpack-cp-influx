@@ -1,23 +1,33 @@
 # Colony Protocol: Influx — identity
 
-**Theme (LOCKED):** Ship-in-void genetics / digital teaching — mad-science recycle; debris → typed matter → genetics (not something-for-nothing).
+**Theme (LOCKED):** Locked in a ship in the void — use what you have to make everything. You can't just build another floor on your base, so the pack is about what to do when you can't expand: recycle, convert, breed, and grow *inward*.
 
-**Loader:** Minecraft 1.21.1 · NeoForge 21.1.228 (match Verdant).
+**Loader:** Minecraft 1.21.1 · NeoForge 21.1.228 (series-wide; match `pack.toml`).
 
-**Mod set:** Shared series QoL + locked landings (HNN / Placebo / Azurum) + **identity soft pins** (**69** `.pw.toml`): thin **AE2** (Spanner workspace; Verdant `19.2.17` pin), **ProjectE**, **AppliedE**, **AgriCraft ReReloaded**, **Replication** (+ **Titanium**). See `mods/*.pw.toml` and series `influx-core-mods.md`.
+**Series context:** Influx is pack 3. Story, pack roles, and mod ownership are in Liminal's [`docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md) — this file covers only what Influx owns.
 
-## Not in this scaffold
+## What Influx owns
 
-- Full quest chapters (empty `config/ftbquests/` — quest worker owns SNBT)
-- Full AE2 depth (AdvancedAE / MEGA / wireless / QoL addons) — thin AE2 only for now
-- AE↔Replication bridge pick (Applied Replicatics vs Replication AE2 Bridge) — hold until compared
-- Mystical Agriculture plant fallback — prefer AgriCraft-only until smoke fails
-- Recovery Bay / gem bootstrap KubeJS — design first, then implement
-- Full FancyMenu Bridge chrome (buttons / CALIBRATE) — title, drippy, level-loading, and pause backgrounds ship under `config/fancymenu/`
+- **World:** a prebuilt ship in the void. Finite, fixed space; no new land, no outward expansion.
+- **Scarcity:** *space*, not raw material. Design questions are "how do I get more out of what's aboard?" and "how do I fit it?" — never "where do I build next?"
+- **Loop:** closed loops. Salvage / debris → typed matter → genetics and breeding for advanced materials. Outputs feed back in.
+- **Pattern first, then convert.** Efficiency ladders (ProjectE-style EMC, Replication) reward having a first copy; they are not a "make anything from nothing" button. Do **not** pitch Influx as "EMC solves everything."
+- **Space answers:** compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** pocket dimensions — general-purpose space usable for almost anything (farms, labs, storage, machines) — that open inward.
+- **Mods it teaches (soft-pinned, not final):** ProjectE (+ Useful ProjectE, ProjectE Integration, AutoEMC), AppliedE, thin AE2 (Spanner workspace), Replication (+ Titanium), AgriCraft ReReloaded, Productive Bees / Trees / Farming / Metalworks, Hostile Neural Networks, Azurum Miner, Silent Gear Metalworks. The `mods/` folder is authoritative; do not hard-code counts in prose.
+- **Quest chapters:** Welcome, Ship Camp, Typed Matter, Genetics Lab, EMC Ladder, Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, Side Quests.
 
-## Design pointers
+## What Influx does *not* own
 
-Project store: docs/influx-core-mods.md · pack-progression-arcs.md §I · influx-bay-alternatives.md (Recovery Bay = KubeJS fallback only — not implemented here) · influx-resource-loops.md.
+Sieving (Verdant), spell/essence magic (Elysian), or cross-pack bridges (Liminal). Verdant-only pillars — Ex Deorum, Create, Mekanism — are not taught here.
+
+## Not yet done
+
+- Early chapters have content; Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, and Side Quests are stubs.
+- Full AE2 depth (AdvancedAE / MEGA / wireless / QoL addons) — thin AE2 only for now.
+- AE ↔ Replication bridge pick (Applied Replicatics vs Replication AE2 Bridge) — hold until compared.
+- Mystical Agriculture plant fallback — prefer AgriCraft-only until smoke fails.
+- Recovery Bay / gem bootstrap KubeJS — design first, then implement. Recovery Bay is a KubeJS fallback only.
+- Full FancyMenu Bridge chrome (buttons / CALIBRATE) — title, drippy, level-loading, and pause backgrounds ship under `config/fancymenu/`.
 
 ## How to add mods
 
@@ -26,8 +36,8 @@ packwiz curseforge add <slug>   # or packwiz modrinth add …
 make refresh
 ```
 
-Pin Soft / candidate jars only after 1.21.1 confirm + smoke-test. Prefer documenting TODOs over guessing pins.
+Pin soft / candidate jars only after 1.21.1 confirm + smoke-test. Prefer documenting TODOs over guessing pins.
 
 ## Recipe viewer defaults
 
-Shipped EMI/JEI configs match Verdant/Elysian patterns (`index-source = registered`, EMI++ stack groups on, JEI `maxColumns = 12`). Sophisticated Storage wood-variant barrels/chests collapse via `kubejs/assets/cpinflux/stack_groups/ss_*.json`. Verify barrel page count in Prism after pull.
+Shipped EMI/JEI configs match the series pattern (`index-source = registered`, EMI++ stack groups on, JEI `maxColumns = 12`). Sophisticated Storage wood-variant barrels/chests collapse via `kubejs/assets/cpinflux/stack_groups/ss_*.json`. Verify barrel page count in Prism after pull.
