@@ -2,7 +2,7 @@
 
 Locked in a ship in the void — use what you have to make everything. Space is the scarce resource: you cannot build another floor, so loops are closed and compact (debris → typed matter → genetics).
 
-**Series story, pack roles, and mod ownership live in Liminal:** [`docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md). Link there; do not copy it here.
+**Series story, pack roles, and mod ownership live in Liminal:** [`docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md). Link there; do not copy it here. **Liminal is designed first** — scope Influx to build the road to it ([`road-to-liminal.md`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/road-to-liminal.md)).
 
 **Loader:** NeoForge 1.21.1 (match Verdant). **Not** a copy of Verdant quests or world model.
 

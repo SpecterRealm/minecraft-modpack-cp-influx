@@ -8,11 +8,11 @@
 - **Module 3** of the Colonial Program. NeoForge 1.21.1, a prebuilt ship in the void. You are locked in.
 - **Contingency trained:** no landfall — the ship is everything you have, and you cannot expand it.
 - **CASPAR tone:** technical, scientific.
-- **Cohort:** *(open — see the series story; the canon carries `CP-Verdant-S1` through every module)*
+- **Cohort:** always `CP-Verdant-S1`. This is **Module 3 · CP Influx**.
 
-## Open story question
+## The ship
 
-The player is in a simulation aboard the *Longwatch*. Is Influx's ship the *Longwatch* itself, or a scenario ship? Making it the *Longwatch* would let the "course correction authority" navigation fragment (see [The Navigation Fragment](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/story.md#the-navigation-fragment)) land naturally in Influx's late leaks. Undecided.
+Influx's ship **is** the *Longwatch*. That makes the navigation-directive fragment (see [The Navigation Fragment](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/story.md#the-navigation-fragment)) land naturally in Influx's late leaks, and it connects the road: the ship that confines you here is the ship that lands you at Liminal.
 
 ## Place in the Veil reveal
 
