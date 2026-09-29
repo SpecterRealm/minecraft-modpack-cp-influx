@@ -14,7 +14,7 @@
 - **Pattern first, then convert — and EMC is the destination.** The ladder is: recycle what you have → keep a first pattern → convert → and finally EMC becomes the way things get made, like a Star Trek replicator (ProjectE, Replication, AutoEMC, AppliedE). It is earned step by step, not a day-one button. AutoEMC stays so EMC covers the whole modpack.
 - **AE2 is a pillar for automation in limited space.** Influx applies AE2 (taught in Verdant) rather than re-teaching it; more AE2 depth is welcome where it serves compact, closed-loop automation. Which AE2 addons come in is still to be decided.
 - **Azurum Miner = asteroid / debris mining.** The player works what drifts near the ship, and it turns into a **power** lesson: generating enough power to run the miner is the real challenge. Power sources are still to be chosen.
-- **Crops:** AgriCraft is the crop-genetics pillar (Productive Farming was removed as a duplicate). Botany Pots (+ Tiers, Trees, KubeJS) are the compact planting answer; Productive Trees and Productive Bees supply tree and bee genetics.
+- **Crops:** AgriCraft (a hands-on genetics system) and Productive Farming (about 160 crops with traits, flower/dye breeding, bee integration) are **both kept for now** — whether to keep both, or which is the pillar, is open ([#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31)). Botany Pots (+ Tiers, Trees, KubeJS) are the compact planting answer; Productive Trees and Productive Bees supply tree and bee genetics.
 - **Space answers:** compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** pocket dimensions — general-purpose space usable for almost anything (farms, labs, storage, machines) — that open inward.
 - **Mods it teaches (soft-pinned, not final):** ProjectE (+ Useful ProjectE, ProjectE Integration, AutoEMC), AppliedE, thin AE2 (Spanner workspace), Replication (+ Titanium), AgriCraft ReReloaded, Productive Bees / Trees / Farming / Metalworks, Hostile Neural Networks, Azurum Miner, Silent Gear Metalworks. The `mods/` folder is authoritative; do not hard-code counts in prose.
 - **Quest chapters:** Welcome, Ship Camp, Typed Matter, Genetics Lab, EMC Ladder, Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, Side Quests.
@@ -28,6 +28,7 @@ Sieving (Verdant), spell/essence magic (Elysian), or cross-pack bridges and colo
 - Early chapters have content; Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, and Side Quests are stubs.
 - **Which AE2 addons to add** (AdvancedAE / MEGA / wireless / QoL) for limited-space automation — AE2 depth is welcome; picks TBD.
 - **Power sources** for the Azurum Miner.
+- **Crop pillar:** decide between AgriCraft, Productive Farming, or both, and how each works with the rest of the pack ([#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31)).
 - **Verify Botany Trees + Productive Trees together:** Botany Trees is about *where and how* trees are planted (compact, pot-grown); Productive Trees is about *what trees produce*. They should complement each other — confirm Productive Trees species can be grown via Botany Trees.
 - AE ↔ Replication bridge pick (Applied Replicatics vs Replication AE2 Bridge) — hold until compared.
 - Mystical Agriculture plant fallback — prefer AgriCraft-only until smoke fails.
