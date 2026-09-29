@@ -487,6 +487,11 @@ hash = "17e4cbad09ee12f069c1bbebd943e1a3c8709bc11be79749cddee1a601a3272b"
 metafile = true
 
 [[files]]
+file = "mods/animal-pens.pw.toml"
+hash = "7f9b6da223b1ebcb45c10d3f0ac40f2622ba4cec7d35975a9a0e68453515155e"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
 metafile = true
