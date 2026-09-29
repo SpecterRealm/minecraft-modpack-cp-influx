@@ -752,6 +752,11 @@ hash = "3e019b217f6ab6fe79ce7d1d2bb59ffc912e92ed0a8d8129f688acdfd5369b65"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-tweaks.pw.toml"
+hash = "f8207cca95fb83e76e544bbfe2af4ed6e00bf30a827022c5c2c9767434d0822a"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
