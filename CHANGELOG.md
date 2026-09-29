@@ -4,7 +4,7 @@
 
 ### Mod stack
 
-- **Removed:** Productive Farming — a duplicate of AgriCraft's crop genetics (AgriCraft is the crop pillar). Nothing referenced it.
+- **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; it adds about 160 crops, flower/dye breeding and bee integration). Whether to keep both crop mods is tracked in #31.
 
 ### Docs / copy
 
