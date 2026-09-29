@@ -8,6 +8,7 @@
 - Series content now links to Liminal (`docs/series/`, the source of truth) instead of being copied; removed pointers to design docs that live outside the repos and hard-coded mod counts.
 - Story doc added (`docs/story.md`). Azurum Miner reframed as asteroid/debris mining that teaches power scale; AE2 named as a pillar for limited-space automation; farming overlap recorded as an open decision.
 - Quest welcome text now says "Module 3 · CP Influx — Cohort CP-Verdant-S1"; the ship is the *Longwatch* (Liminal-first design).
+- Welcome quest and story doc now place Influx aboard the real *Longwatch* in flight (final practical). "Colonial Program" renamed to Cohort Protocol.
 
 ## [0.1.0]
 
