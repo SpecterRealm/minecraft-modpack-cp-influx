@@ -52,6 +52,16 @@ Or on macOS with Prism at the default path: `make dev` (configure + serve-bg + l
 
 Foreground serve (blocks the terminal): `make serve`.
 
+## Void test world
+
+Influx is a void pack, and some questions (for example whether the Azurum Miner works with nothing beneath it — [#29](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/29)) can only be answered in a void. Neither this pack nor Elysian configures a void world yet ([#28](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/28)), so for now create one by hand:
+
+1. In Prism, launch `CP-Influx-Dev`.
+2. **Create New World → More World Options → World Type: Superflat → Customize → Presets → "The Void".**
+3. Create the world, then use creative mode for a small starting platform and any test items.
+
+*Untested with this pack's mod list — note any spawn, lighting, or mob-spawn oddities on #28.* The pack-default mechanism (how Influx actually starts players in a void, and where the "prebuilt ship" comes from) is still to be decided.
+
 ## After edits
 
 - New tracked files → `make refresh` (or just `make serve-bg`)
