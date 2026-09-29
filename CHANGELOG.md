@@ -6,6 +6,7 @@
 
 - Theme rewritten: locked in a ship, use what you have to make everything, space (not material) is the constraint. Replaces the "something-for-nothing" framing in README, identity doc, site, quest text, and the login message.
 - Series content now links to Liminal (`docs/series/`, the source of truth) instead of being copied; removed pointers to design docs that live outside the repos and hard-coded mod counts.
+- Story doc added (`docs/story.md`). Azurum Miner reframed as asteroid/debris mining that teaches power scale; AE2 named as a pillar for limited-space automation; farming overlap recorded as an open decision.
 
 ## [0.1.0]
 
