@@ -482,6 +482,11 @@ hash = "81d42f348a6408398b0a29dd67d875b88fdbd980f8511650ef82fda0d88c5c2e"
 metafile = true
 
 [[files]]
+file = "mods/akashic-tome.pw.toml"
+hash = "17e4cbad09ee12f069c1bbebd943e1a3c8709bc11be79749cddee1a601a3272b"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
 metafile = true
@@ -604,6 +609,16 @@ metafile = true
 [[files]]
 file = "mods/farming-for-blockheads.pw.toml"
 hash = "72297d1790d36f6d871a28c66670fa127ea8760b6b030e70bb8b9e34ba1dbe0c"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "c6fc1c6d8c12d489ae8e050368b0dd2664ca1bd9cc341ab617f821430c5125b3"
+metafile = true
+
+[[files]]
+file = "mods/fastworkbench.pw.toml"
+hash = "86cd25c35b07e7d33353aae279eacce06fa46d0682c6b9c83b2384cee0c3e59f"
 metafile = true
 
 [[files]]
@@ -904,6 +919,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+metafile = true
+
+[[files]]
+file = "mods/useful-projecte.pw.toml"
+hash = "8218d7e61a96a6f9b64451f185c2d9fcb7eb2651cec8d1251f165e889d981023"
 metafile = true
 
 [[files]]
