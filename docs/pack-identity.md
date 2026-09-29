@@ -12,18 +12,22 @@
 - **Scarcity:** *space*, not raw material. Design questions are "how do I get more out of what's aboard?" and "how do I fit it?" — never "where do I build next?"
 - **Loop:** closed loops. Salvage / debris → typed matter → genetics and breeding for advanced materials. Outputs feed back in.
 - **Pattern first, then convert.** Efficiency ladders (ProjectE-style EMC, Replication) reward having a first copy; they are not a "make anything from nothing" button. Do **not** pitch Influx as "EMC solves everything."
+- **AE2 is a pillar for automation in limited space.** Influx applies AE2 (taught in Verdant) rather than re-teaching it; more AE2 depth is welcome where it serves compact, closed-loop automation. Which AE2 addons come in is still to be decided.
+- **Azurum Miner = asteroid / debris mining.** The player works what drifts near the ship, and it turns into a **power** lesson: generating enough power to run the miner is the real challenge. Power sources are still to be chosen.
 - **Space answers:** compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** pocket dimensions — general-purpose space usable for almost anything (farms, labs, storage, machines) — that open inward.
 - **Mods it teaches (soft-pinned, not final):** ProjectE (+ Useful ProjectE, ProjectE Integration, AutoEMC), AppliedE, thin AE2 (Spanner workspace), Replication (+ Titanium), AgriCraft ReReloaded, Productive Bees / Trees / Farming / Metalworks, Hostile Neural Networks, Azurum Miner, Silent Gear Metalworks. The `mods/` folder is authoritative; do not hard-code counts in prose.
 - **Quest chapters:** Welcome, Ship Camp, Typed Matter, Genetics Lab, EMC Ladder, Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, Side Quests.
 
 ## What Influx does *not* own
 
-Sieving (Verdant), spell/essence magic (Elysian), or cross-pack bridges (Liminal). Verdant-only pillars — Ex Deorum, Create, Mekanism — are not taught here.
+Sieving (Verdant), spell/essence magic (Elysian), or cross-pack bridges and colony features (Liminal). Verdant-only pillars — Ex Deorum, Create, Mekanism — are not taught here.
 
 ## Not yet done
 
 - Early chapters have content; Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE, and Side Quests are stubs.
-- Full AE2 depth (AdvancedAE / MEGA / wireless / QoL addons) — thin AE2 only for now.
+- **Which AE2 addons to add** (AdvancedAE / MEGA / wireless / QoL) for limited-space automation — AE2 depth is welcome; picks TBD.
+- **Power sources** for the Azurum Miner.
+- **Farming overlap:** AgriCraft, Botany Pots (+ Tiers, Trees), and Productive Farming / Trees / Bees overlap heavily. Decide whether all three families earn a place and name one pillar per role.
 - AE ↔ Replication bridge pick (Applied Replicatics vs Replication AE2 Bridge) — hold until compared.
 - Mystical Agriculture plant fallback — prefer AgriCraft-only until smoke fails.
 - Recovery Bay / gem bootstrap KubeJS — design first, then implement. Recovery Bay is a KubeJS fallback only.
