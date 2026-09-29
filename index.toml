@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "b7914b05ac0fc209a77bb35a3ec77d0806fcc571b992a903abe57e7551ebb68a"
+hash = "6b355445cca11fbc6e605613b57e84ae6dd8c61510466c64b73e47177982d0a2"
 
 [[files]]
 file = "config/emi-client.toml"
@@ -804,11 +804,6 @@ metafile = true
 [[files]]
 file = "mods/productivebees.pw.toml"
 hash = "668fee9b5c83dcc80ed92ebb4d7b35cc7462b1f12682ddb9ef3511f71c25dd5c"
-metafile = true
-
-[[files]]
-file = "mods/productivefarming.pw.toml"
-hash = "79eb074acfc6d191f1b0be1e9e2bde9b5f57ae77e9f65d339fd9319684ee9d46"
 metafile = true
 
 [[files]]

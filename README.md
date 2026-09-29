@@ -11,7 +11,7 @@ Locked in a **ship in the void** — use what you have to make everything. You c
 
 ## What this is
 
-You live on a **prebuilt ship in the void**. There is no next island and no second floor — space, not material, is what's scarce. So the pack teaches the opposite of expansion: make everything from what you have. Salvage and debris become typed matter, typed matter feeds breeding and genetics, and every loop is closed. When you do need room, it opens *inward* through AE2 Spanner pocket dimensions — usable for almost anything — not outward. Do **not** pitch this pack as “EMC solves everything.”
+You live on a **prebuilt ship in the void**. There is no next island and no second floor — space, not material, is what's scarce. So the pack teaches the opposite of expansion: make everything from what you have. Salvage and debris become typed matter, typed matter feeds breeding and genetics, and every loop is closed. When you do need room, it opens *inward* through AE2 Spanner pocket dimensions — usable for almost anything — not outward. The endgame is EMC as the way things get made — like a Star Trek replicator — but you earn it: recycle, keep a pattern, convert, then replicate.
 
 **Soft leans (not jar locks yet):** salvage / Recovery Bay–style bootstrap → genetics / breeding for advanced mats → compact, closed-loop production and digital workspace tools. Efficiency ladders (if present) stay pattern-first: first copy, then convert. Quests teach and reward; they never hard-gate the pack.
 
