@@ -4,6 +4,11 @@
 
 ### Mod stack
 
+- **Added:** KubeJS Tweaks (KubeJS helper and hotfixes) so all four packs carry it. Flagged: use it once Influx scripting exists, or remove it.
+- **Added:** Baubley Heart Canisters (health progression; needs Curios, already present), so all four packs carry it.
+- **Added:** Essential Mod as client-only (`side = "client"`), matching the other packs: servers do not install it, players' clients get it from the pack (friends list, cosmetics, world hosting).
+- **Added:** Flux Networks (from Verdant): wireless FE transfer and Flux Storage blocks, so power moves and is stored without cables taking ship space.
+- **Added:** Extreme Reactors (+ ZeroCore 2) as the power pillar for the Azurum Miner's power-scale lesson, taken from Verdant. Early-game power and reactor fuel are still to be designed.
 - **Added:** Animal Pens — stores animals in pens, aquariums and aviaries with breeding, shearing, milking and drops intact; a fit for livestock in limited ship space.
 - **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; it adds about 160 crops, flower/dye breeding and bee integration). Whether to keep both crop mods is tracked in #31.
 
