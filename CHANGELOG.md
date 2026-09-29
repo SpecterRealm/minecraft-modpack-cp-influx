@@ -4,6 +4,7 @@
 
 ### Mod stack
 
+- **Added:** Animal Pens — stores animals in pens, aquariums and aviaries with breeding, shearing, milking and drops intact; a fit for livestock in limited ship space.
 - **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; it adds about 160 crops, flower/dye breeding and bee integration). Whether to keep both crop mods is tracked in #31.
 
 ### Docs / copy
