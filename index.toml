@@ -597,6 +597,11 @@ hash = "2eb053a0a142697991f1b0a444ace6cbcb58f8d4fc08cfb23b0c5a3f0703424c"
 metafile = true
 
 [[files]]
+file = "mods/essential-mod.pw.toml"
+hash = "588bc4b3847d7a9a14fa1ba275896e99cff1fbb877912a530e5f389c72770e05"
+metafile = true
+
+[[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "a3d47e3c301ed2359820c2083dcddec8240a5d692a016c42a74eecc1193772e1"
 metafile = true
