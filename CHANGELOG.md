@@ -4,6 +4,7 @@
 
 ### Mod stack
 
+- **Added:** Flux Networks (from Verdant): wireless FE transfer and Flux Storage blocks, so power moves and is stored without cables taking ship space.
 - **Added:** Extreme Reactors (+ ZeroCore 2) as the power pillar for the Azurum Miner's power-scale lesson, taken from Verdant. Early-game power and reactor fuel are still to be designed.
 - **Added:** Animal Pens — stores animals in pens, aquariums and aviaries with breeding, shearing, milking and drops intact; a fit for livestock in limited ship space.
 - **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; it adds about 160 crops, flower/dye breeding and bee integration). Whether to keep both crop mods is tracked in #31.
