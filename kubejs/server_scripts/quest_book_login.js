@@ -11,7 +11,11 @@ PlayerEvents.loggedIn((event) => {
 
   player.tell(Text.of(''));
   player.tell(Text.gold('[ COLONY PROTOCOL: INFLUX ]'));
-  player.tell(Text.of('Recovery bay online. Debris becomes typed matter — nothing from nothing.'));
+  player.tell(
+    Text.of(
+      'Recovery bay online. The hull is all the room there is — make everything from what you have.'
+    )
+  );
   player.tell(Text.of(''));
   player.tell(Text.aqua('Getting started:'));
   player.tell(

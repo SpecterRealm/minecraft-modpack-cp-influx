@@ -1,6 +1,8 @@
 # Colony Protocol: Influx — Agent Instructions
 
-Ship-in-void genetics / digital teaching — mad-science recycle; debris → typed matter → genetics (not something-for-nothing).
+Locked in a ship in the void — use what you have to make everything. Space is the scarce resource: you cannot build another floor, so loops are closed and compact (debris → typed matter → genetics).
+
+**Series story, pack roles, and mod ownership live in Liminal:** [`docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md). Link there; do not copy it here.
 
 **Loader:** NeoForge 1.21.1 (match Verdant). **Not** a copy of Verdant quests or world model.
 
@@ -26,7 +28,7 @@ First-time (Prism closed): `make setup-dev` (jars + PreLaunch + RAM/window). Opt
 
 ## Design pointers
 
-Project store: docs/influx-core-mods.md · pack-progression-arcs.md §I · influx-bay-alternatives.md (Recovery Bay = KubeJS fallback only — not implemented here) · influx-resource-loops.md.
+Pack scope: `docs/pack-identity.md`. Series design: Liminal `docs/series/pack-architecture.md` (Influx section).
 
 ## GitHub
 

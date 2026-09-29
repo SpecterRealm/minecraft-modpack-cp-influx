@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "1d69855ad50456e59d6cc307d48d6665921bcbc3b5bafc392e9eb4da0b0cdd85"
+hash = "b7914b05ac0fc209a77bb35a3ec77d0806fcc571b992a903abe57e7551ebb68a"
 
 [[files]]
 file = "config/emi-client.toml"
@@ -122,7 +122,7 @@ hash = "1841bf049cf479e2db05355f814b2e5e4172a5cf7d27214e523aa79c2663ae9d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6f29be53911dfb46e8f2878a12f8ebd5416e741c008b37dd97b30a3d558d987c"
+hash = "44f75804712806471460a9f2eb9f727ca772dda316ed5c8b5e74ead8fbbdbe4a"
 
 [[files]]
 file = "config/ftbquests/quests/quests.snbt"
@@ -158,7 +158,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/README.md"
-hash = "64462d0e1fe19c8d8a6397204d7d6a0b5bdf17f0a5d1168d998cd3e33c6027d5"
+hash = "f37ea3f9bbc2590e8f7f1a37785cbf8e803f1964c9a2f3d8acb893b1957e23b9"
 
 [[files]]
 file = "kubejs/assets/cpinflux/lang/en_us.json"
@@ -466,11 +466,11 @@ hash = "3cb4aa7a1a4592ec8e85adc4b7faf930a51fa2752a2a79b2dd88f0d65c5e772a"
 
 [[files]]
 file = "kubejs/server_scripts/README.md"
-hash = "97a4230e2cd93034da471b2f5f61ded2359a3fa5e0b5b9f197b6878a8bdca094"
+hash = "a810ea221373d2ef25405cf8215e8357eebdf158e6afb25508668a422cc7702d"
 
 [[files]]
 file = "kubejs/server_scripts/quest_book_login.js"
-hash = "1849023771806ddf4512fe909e9d2f64bedb7ce62025fbd54e0796ac6bc9bc7a"
+hash = "c04eae1a4f0d2081e650b74382c11c185234dd439dcb4cfe83bc382722b24cbc"
 
 [[files]]
 file = "kubejs/startup_scripts/.gitkeep"

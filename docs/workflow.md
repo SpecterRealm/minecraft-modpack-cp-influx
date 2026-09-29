@@ -69,4 +69,4 @@ See [curseforge-export.md](curseforge-export.md). Modrinth export may fail if a 
 
 ## Design
 
-Project store: docs/influx-core-mods.md · pack-progression-arcs.md §I · influx-bay-alternatives.md (Recovery Bay = KubeJS fallback only — not implemented here) · influx-resource-loops.md.
+Series design: Liminal [`docs/series/`](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/blob/main/docs/series/README.md). Pack scope: [pack-identity.md](pack-identity.md).
