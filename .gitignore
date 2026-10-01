@@ -29,3 +29,8 @@ logs/
 crash-reports/
 saves/
 screenshots/
+
+# Recipe wiki: HTML is huge (embedded textures), assembled scripts are generated
+docs/recipe_wiki.html
+scripts/recipe_wiki_core.py
+scripts/analyze_recipe_wiki.py
