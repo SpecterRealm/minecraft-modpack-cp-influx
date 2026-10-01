@@ -1,0 +1,31 @@
+# mod: mekanism
+# items: 26
+# jar_recipes_on_results: 28
+# installed: NO (compat recipe for a mod that is not installed)
+
+mekanism:block_bronze
+mekanism:block_lead
+mekanism:block_osmium
+mekanism:block_refined_glowstone
+mekanism:block_refined_obsidian
+mekanism:block_steel
+mekanism:block_tin
+mekanism:block_uranium
+mekanism:ingot_bronze
+mekanism:ingot_lead
+mekanism:ingot_osmium
+mekanism:ingot_refined_glowstone
+mekanism:ingot_refined_obsidian
+mekanism:ingot_steel
+mekanism:ingot_tin
+mekanism:ingot_uranium
+mekanism:lithium
+mekanism:nuclear_waste
+mekanism:nugget_bronze
+mekanism:nugget_lead
+mekanism:nugget_osmium
+mekanism:nugget_refined_glowstone
+mekanism:nugget_refined_obsidian
+mekanism:nugget_steel
+mekanism:nugget_tin
+mekanism:nugget_uranium

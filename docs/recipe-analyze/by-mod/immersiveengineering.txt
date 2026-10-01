@@ -1,0 +1,29 @@
+# mod: immersiveengineering
+# items: 24
+# jar_recipes_on_results: 24
+# installed: NO (compat recipe for a mod that is not installed)
+
+immersiveengineering:ingot_aluminum
+immersiveengineering:ingot_constantan
+immersiveengineering:ingot_electrum
+immersiveengineering:ingot_lead
+immersiveengineering:ingot_nickel
+immersiveengineering:ingot_silver
+immersiveengineering:ingot_steel
+immersiveengineering:ingot_uranium
+immersiveengineering:nugget_aluminum
+immersiveengineering:nugget_constantan
+immersiveengineering:nugget_electrum
+immersiveengineering:nugget_lead
+immersiveengineering:nugget_nickel
+immersiveengineering:nugget_silver
+immersiveengineering:nugget_steel
+immersiveengineering:nugget_uranium
+immersiveengineering:storage_aluminum
+immersiveengineering:storage_constantan
+immersiveengineering:storage_electrum
+immersiveengineering:storage_lead
+immersiveengineering:storage_nickel
+immersiveengineering:storage_silver
+immersiveengineering:storage_steel
+immersiveengineering:storage_uranium

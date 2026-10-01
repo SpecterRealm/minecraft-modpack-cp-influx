@@ -1,0 +1,21 @@
+# mod: mysticalagriculture
+# items: 16
+# jar_recipes_on_results: 16
+# installed: NO (compat recipe for a mod that is not installed)
+
+mysticalagriculture:imperium_block
+mysticalagriculture:imperium_essence
+mysticalagriculture:imperium_ingot
+mysticalagriculture:inferium_block
+mysticalagriculture:inferium_essence
+mysticalagriculture:inferium_ingot
+mysticalagriculture:inferium_seeds
+mysticalagriculture:prudentium_block
+mysticalagriculture:prudentium_essence
+mysticalagriculture:prudentium_ingot
+mysticalagriculture:supremium_block
+mysticalagriculture:supremium_essence
+mysticalagriculture:supremium_ingot
+mysticalagriculture:tertium_block
+mysticalagriculture:tertium_essence
+mysticalagriculture:tertium_ingot

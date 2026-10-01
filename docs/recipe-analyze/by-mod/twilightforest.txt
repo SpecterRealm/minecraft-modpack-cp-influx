@@ -1,0 +1,12 @@
+# mod: twilightforest
+# items: 7
+# jar_recipes_on_results: 7
+# installed: NO (compat recipe for a mod that is not installed)
+
+twilightforest:cicada
+twilightforest:firefly
+twilightforest:liveroot
+twilightforest:moonworm
+twilightforest:raven_feather
+twilightforest:steeleaf_ingot
+twilightforest:torchberries

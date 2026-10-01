@@ -1,0 +1,15 @@
+# Seed-like item ids for mods outside the crop shortlist
+
+## azurum_miner (1)
+azurum_miner:seed_crystal
+
+## farmersdelight (2)
+farmersdelight:cabbage_seeds
+farmersdelight:tomato_seeds
+
+## minecraft (2)
+minecraft:beetroot_seeds
+minecraft:pumpkin_seeds
+
+## silentgear (1)
+silentgear:fluffy_seeds
