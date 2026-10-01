@@ -1,0 +1,8 @@
+# mod: productivelib
+# items: 3
+# jar_recipes_on_results: 5
+# installed: NO (compat recipe for a mod that is not installed)
+
+productivelib:upgrade_pollen_sieve
+productivelib:upgrade_stability
+productivelib:upgrade_time
