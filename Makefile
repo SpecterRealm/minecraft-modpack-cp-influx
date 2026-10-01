@@ -202,3 +202,6 @@ all: version-check export-cf export-mr
 	@echo "✓ Exports for $(PACK_VERSION):"
 	@echo "    $(CF_OUT)"
 	@echo "    $(MR_OUT)"
+
+# Recipe + item dump (make recipe-pr)
+include scripts/recipe-audit.mk
