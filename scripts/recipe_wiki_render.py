@@ -11,7 +11,10 @@ from recipe_wiki_core import (
     build_slim,
     datetime,
     extract_jar_recipes,
+    SKIPPED,
+    extract_loot,
     extract_tags,
+    installed_mod_ids,
     json,
     parse_kubejs,
     timezone,
@@ -100,9 +103,11 @@ def generate_html(slim_index: dict, textures: dict) -> str:
 def main():
     jar_recipes         = extract_jar_recipes()
     removals, additions = parse_kubejs()
-    slim                = build_slim(jar_recipes, removals, additions)
+    mods                = installed_mod_ids()
+    tags                = extract_tags(mods)
+    loot                = extract_loot({"mods": mods, "tags": tags})
+    slim                = build_slim(jar_recipes, removals, additions, {"mods": mods, "tags": tags})
     textures            = extract_textures()
-    tags                = extract_tags()
 
     # Write JSON index
     OUT_JSON.write_text(
@@ -110,6 +115,8 @@ def main():
             "generated": datetime.now(timezone.utc).isoformat(),
             "item_count": len(slim),
             "tags": tags,
+            "loot": loot,
+            "skipped_types": dict(sorted(SKIPPED.items(), key=lambda kv: -kv[1])),
             "recipes": slim,
         }, indent=2),
         encoding="utf-8",

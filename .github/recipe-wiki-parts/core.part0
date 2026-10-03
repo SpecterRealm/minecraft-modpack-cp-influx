@@ -8,7 +8,7 @@ Produces (generated; do not commit large dumps unless intentional):
   docs/recipe_wiki.html  — self-contained browseable HTML recipe tree
 
 Usage:
-  # Default: Prism CP-Influx-Dev instance mods folder (macOS path)
+  # Default: Prism CP-Liminal-Dev instance mods folder (macOS path)
   python3 scripts/build_recipe_wiki.py
 
   # Or point at any mods directory with JARs already installed:
@@ -17,7 +17,7 @@ Usage:
   make recipe-wiki
 
 Do NOT reuse Verdant's docs/recipe_data.json for Influx analysis (different
-mod list, pins, and KubeJS). Generate a Influx dump from CP-Influx-Dev JARs.
+mod list, pins, and KubeJS). Generate an Influx dump from CP-Liminal-Dev JARs.
 """
 
 import base64
@@ -78,27 +78,65 @@ MOD_PREFIXES = [
 
 
 def keep_type(rtype: str) -> bool:
-    return rtype in VANILLA_TYPES or any(rtype.startswith(p) for p in MOD_PREFIXES)
+    """Keep every recipe type: an allowlist silently hides whole mods. Recipes without a usable result are
+    counted in SKIPPED (written to the dump) so what is left out stays visible."""
+    return bool(rtype)
+
+
+SKIPPED: dict[str, int] = {}
 
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-def get_result_id(data: dict) -> str | None:
-    """Pull the primary output item ID from any recipe dict."""
-    for key in ("result", "results", "output", "outputs"):
+_FLUID_LIKE = ("fluid", "chemical", "gas", "infuse_type", "slurry", "pigment")
+
+
+def _stack_id(val) -> str | None:
+    """Item id of a result stack, or a pseudo id for fluids and chemicals (fluid:<id>, chemical:<id>, ...)."""
+    if isinstance(val, str):
+        return val
+    if not isinstance(val, dict):
+        return None
+    for key in _FLUID_LIKE:
+        ref = val.get(key)
+        if isinstance(ref, dict):
+            ref = ref.get("id") or ref.get("fluid") or ref.get("chemical")
+        if isinstance(ref, str):
+            return f"{key}:{ref}"
+    ref = val.get("id") or val.get("item")
+    if isinstance(ref, dict):
+        ref = ref.get("id") or ref.get("item")
+    if isinstance(ref, str):
+        # FluidStack codec: {"id", "amount"} without "count"
+        if "amount" in val and "count" not in val and "item" not in val:
+            return f"fluid:{ref}"
+        return ref
+    for key in ("ingredient", "stack"):  # nested stack wrappers
+        if key in val:
+            return _stack_id(val[key])
+    return None
+
+
+def get_result_ids(data: dict) -> list[str]:
+    """Every output of a recipe (items, fluids, chemicals), in order, without repeats."""
+    found: list[str] = []
+    for key in ("result", "results", "output", "outputs", "fluid_output", "fluid_result", "byproducts"):
         val = data.get(key)
         if not val:
             continue
-        if isinstance(val, list):
-            val = val[0] if val else None
-        if not val:
-            continue
-        if isinstance(val, str):
-            return val
-        return val.get("id") or val.get("item")
-    return None
+        for v in (val if isinstance(val, list) else [val]):
+            rid = _stack_id(v)
+            if rid and rid not in found:
+                found.append(rid)
+    return found
+
+
+def get_result_id(data: dict) -> str | None:
+    """Pull the primary output ID from any recipe dict."""
+    ids = get_result_ids(data)
+    return ids[0] if ids else None
 
 
 def get_result_count(data: dict) -> int:
@@ -178,8 +216,8 @@ def ingredients_from(data: dict) -> list[dict]:
 
     # Fields that name a required item outside the ingredient lists (Ex Deorum sieve mesh)
     mesh = data.get("mesh")
-    if isinstance(mesh, str) and mesh:
-        out.append({"type": "item", "value": mesh, "count": 1})
+    if mesh:
+        out.append(norm_ing(mesh))
     out = [i for i in out if i.get("value")]
     if not out:
         # Unusual recipe shapes (Theurgy sources and salts, Ars pedestals and reagents, Create sequences...):
@@ -197,12 +235,27 @@ def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
     if _depth > 8:
         return found
     if isinstance(node, dict):
-        if "tag" in node and isinstance(node["tag"], str):
-            found.append({"type": "tag", "value": node["tag"], "count": int(node.get("count", 1) or 1)})
-            return found
-        if isinstance(node.get("item"), str):
-            found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
-            return found
+        if not _top:  # references sit below the recipe root; the root's own keys are structure, not ingredients
+            if "tag" in node and isinstance(node["tag"], str):
+                found.append({"type": "tag", "value": node["tag"], "count": int(node.get("count", 1) or 1)})
+                return found
+            if isinstance(node.get("item"), str):
+                found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
+                return found
+            for key in _FLUID_LIKE:  # fluids and chemicals are pseudo items: fluid:<id>, chemical:<id>
+                ref = node.get(key)
+                if isinstance(ref, dict):
+                    ref = ref.get("id") or ref.get(key)
+                if isinstance(ref, str):
+                    found.append({"type": "item", "value": f"{key}:{ref}", "count": 1})
+                    return found
+            # Block states ({"Name": ...}, Cobblegen Galore) and item stacks ({"id": ...}); water and lava are world sources
+            for key in ("Name", "id"):
+                val = node.get(key)
+                if isinstance(val, str) and ":" in val:
+                    if val not in ("minecraft:water", "minecraft:lava"):
+                        found.append({"type": "item", "value": val, "count": int(node.get("count", 1) or 1)})
+                    return found
         for key, val in node.items():
             if _top and key in _RESULT_KEYS:
                 continue
@@ -211,6 +264,62 @@ def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
         for val in node:
             found.extend(_scan_refs(val, False, _depth + 1))
     return found
+
+
+_MODID_RE = re.compile(r'^\s*modId\s*=\s*"([^"]+)"')
+
+
+def installed_mod_ids() -> set[str]:
+    """Mod ids from the [[mods]] tables of the installed jars, plus the built-in namespaces."""
+    ids = {"minecraft", "neoforge", "c"}
+    for jar in sorted(MODS_DIR.glob("*.jar")):
+        try:
+            with zipfile.ZipFile(jar) as zf:
+                for name in ("META-INF/neoforge.mods.toml", "META-INF/mods.toml"):
+                    if name not in zf.namelist():
+                        continue
+                    table = ""
+                    for line in zf.read(name).decode("utf-8", "replace").splitlines():
+                        st = line.strip()
+                        if st.startswith("["):
+                            table = st
+                        elif table == "[[mods]]":
+                            m = _MODID_RE.match(line)
+                            if m:
+                                ids.add(m.group(1))
+        except (zipfile.BadZipFile, OSError):
+            continue
+    return ids
+
+
+def eval_conditions(conds, ctx) -> bool:
+    """NeoForge load conditions. Unknown condition types count as met, so no real recipe is dropped."""
+    if not conds:
+        return True
+    if isinstance(conds, dict):
+        conds = [conds]
+    for c in conds:
+        t = c.get("type", "")
+        if t == "neoforge:mod_loaded":
+            ok = c.get("modid") in ctx["mods"]
+        elif t == "neoforge:not":
+            ok = not eval_conditions(c.get("value"), ctx)
+        elif t == "neoforge:and":
+            ok = all(eval_conditions(v, ctx) for v in c.get("values", []))
+        elif t == "neoforge:or":
+            ok = any(eval_conditions(v, ctx) for v in c.get("values", []))
+        elif t == "neoforge:false":
+            ok = False
+        elif t == "neoforge:tag_empty":
+            ok = not ctx["tags"].get(c.get("tag"))
+        elif t == "neoforge:item_exists":
+            ref = c.get("item", "")
+            ok = ref.split(":", 1)[0] in ctx["mods"]
+        else:
+            ok = True
+        if not ok:
+            return False
+    return True
 
 
 def shaped_grid(data: dict) -> list[list[dict | None]]:
@@ -245,8 +354,11 @@ def vanilla_jars() -> list[Path]:
         data_dir = MODS_DIR.parents[3]  # <prism data>/instances/<instance>/minecraft/mods
     except IndexError:
         return []
-    found = sorted((data_dir / "libraries" / "com" / "mojang" / "minecraft").glob("*/minecraft-*-client.jar"))
-    return found[-1:] if found else []
+    libs = data_dir / "libraries"
+    found = sorted((libs / "com" / "mojang" / "minecraft").glob("*/minecraft-*-client.jar"))[-1:]
+    # NeoForge's own jar holds the common (c:) tags that recipes use
+    found += sorted((libs / "net" / "neoforged" / "neoforge").glob("*/neoforge-*-universal.jar"))[-1:]
+    return found
 
 
 def extract_jar_recipes() -> dict[str, list[dict]]:
@@ -269,7 +381,8 @@ def extract_jar_recipes() -> dict[str, list[dict]]:
         )
         sys.exit(1)
     vanilla = vanilla_jars()
-    print(f"Scanning {len(jars)} JARs in {MODS_DIR}" + (f" plus vanilla {vanilla[0].name}" if vanilla else " (vanilla jar not found: no vanilla recipes)") + "...")
+    extra = ", ".join(v.name for v in vanilla)
+    print(f"Scanning {len(jars)} JARs in {MODS_DIR}" + (f" plus {extra}" if vanilla else " (vanilla jar not found: no vanilla recipes)") + "...")
     jars = jars + vanilla
 
     for jar_path in jars:

@@ -19,6 +19,15 @@ for tool in packwiz "$JAVA" curl python3 git; do
   command -v "$tool" >/dev/null || die "$tool not found on PATH"
 done
 [ -d "$DEV_MC_DIR" ] || die "instance folder not found: $DEV_MC_DIR (create the Prism instance and run make setup-dev once)"
+# Leftover generated dump files (from an earlier run that stopped early) are not real changes: discard them
+GEN_EXCLUDES=(':(exclude)docs/recipe_data.json' ':(exclude)docs/recipe-analyze' ':(exclude)docs/recipe_wiki.html')
+if [ -n "$(git status --porcelain --untracked-files=no)" ] && [ -z "$(git status --porcelain --untracked-files=no -- . "${GEN_EXCLUDES[@]}")" ]; then
+  echo "Discarding leftover generated dump files (they are regenerated each run):"
+  git status --porcelain --untracked-files=no
+  # reset index and working copy to HEAD (leftovers may be staged, which a plain checkout would keep)
+  git checkout HEAD -- docs/recipe_data.json docs/recipe-analyze 2>/dev/null || true
+  git checkout HEAD -- docs/recipe_wiki.html 2>/dev/null || true
+fi
 [ -z "$(git status --porcelain --untracked-files=no)" ] || die "tracked files have uncommitted changes. Commit or stash them first."
 
 if [ ! -f "$BOOTSTRAP_JAR" ] || [ ! -f "$INSTALLER_JAR" ]; then
